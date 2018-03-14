@@ -9,9 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html" line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d749e97a-5914-4012-83c2-a0fa98ec7e04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d749e97a-5914-4012-83c2-a0fa98ec7e04" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -676,7 +674,7 @@
       <workItem from="1519023732014" duration="29760000" />
       <workItem from="1519231173438" duration="2577000" />
       <workItem from="1519233842239" duration="17171000" />
-      <workItem from="1521046877469" duration="1035000" />
+      <workItem from="1521046877469" duration="1586000" />
     </task>
     <servers />
   </component>
@@ -713,7 +711,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106421000" />
+    <option name="totallyTimeSpent" value="106972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,7 +724,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
