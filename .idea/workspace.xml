@@ -9,20 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html" line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d749e97a-5914-4012-83c2-a0fa98ec7e04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/impl/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/entities/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/filters/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/desktop.ini" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d749e97a-5914-4012-83c2-a0fa98ec7e04" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,8 +105,8 @@
       <file leaf-file-name="Accueil.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Accueil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="725">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -290,140 +277,58 @@
         <subPane>
           <expand>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="managers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sitewebwhei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -769,7 +674,7 @@
       <workItem from="1519023732014" duration="29760000" />
       <workItem from="1519231173438" duration="2577000" />
       <workItem from="1519233842239" duration="17171000" />
-      <workItem from="1521046877469" duration="177000" />
+      <workItem from="1521046877469" duration="233000" />
     </task>
     <servers />
   </component>
@@ -806,7 +711,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105563000" />
+    <option name="totallyTimeSpent" value="105619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,7 +724,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -836,7 +740,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21027027" sideWeight="0.47619048" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21027027" sideWeight="0.47619048" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2064865" sideWeight="0.52380955" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1237,8 +1141,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Accueil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="725">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding />
         </state>
       </provider>
