@@ -1,0 +1,215 @@
+body {
+    background-color: #ECF3F2;
+}
+
+.Menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: -5px;
+    padding-top: 3px;
+    background-color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ContenuMenu {
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Calibri";
+    margin-top: 9px;
+}
+
+.ContenuMenu a {
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+}
+
+.Menu img {
+    margin-left: 30px;
+    width : 60px;
+    height: 50px;
+}
+
+.Titre1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Calibri";
+}
+
+.Titre2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Calibri";
+}
+
+.ConteneurParagraphe {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: Calibri;
+}
+
+.Paragraphe {
+    width: 700px;
+}
+
+.ListMembre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.ListMembre a{
+    text-decoration: none;
+    color: black;
+}
+
+.Membre {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Calibri;
+    width: 150px;
+}
+
+.ListMembre img{
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+}
+
+.basDePage {
+    margin: 100px;
+}
+
+.imageHEI {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.imageHEI img{
+    height: 200px;
+    width: 400px;
+    border-radius: 3px;
+}
+
+.ConteneurAdresse {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: Calibri;
+}
+
+.ConteneurAdresse img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.ConteneurAdresse a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.ConteneurParagrapheAdresse {
+    margin-left: 50px;
+}
+
+.nomAdresse {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.typeEtAdresse .horairesAdresse {
+    margin-top: 7px;
+}
+
+.descriptionAdresse {
+    margin-top: 10px;
+    width: 700px;
+}
+
+.ElementAdresse {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.ContenuRechercher {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+.TitreChampDeSaisie {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ChampDeSaisie {
+    text-align: center;
+    width: 250px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    border: solid 1px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.ConteneurBoutonSupprimer, .BoutonRechercher {
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    border: none;
+    background-color: #999999;
+}
+
+.ConteneurBoutonSupprimer a {
+    text-decoration: none;
+    color: black;
+}
+
+.BoutonAjouter {
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    border: none;
+    background-color: #999999;
+}
+
+.BoutonAjouter a{
+    text-decoration: none;
+    color: black;
+}
+
+.ConteneurBoutonAjouter{
+    display: flex;
+    justify-content: center;
+}

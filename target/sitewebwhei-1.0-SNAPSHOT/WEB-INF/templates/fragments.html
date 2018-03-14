@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Fragments</title>
+    </head>
+
+    <body>
+
+        <section th:fragment="menu" class="Menu">
+
+            <section>
+                <a href="/Accueil">
+                    <img src="img/Logo.png">
+                </a>
+            </section>
+
+            <section class="ContenuMenu">
+                <a href="/Ecole">L'ECOLE</a>
+            </section>
+
+            <section class="ContenuMenu">
+                <a href="/Integrale">L'INTEGRALE</a>
+            </section>
+
+            <section class="ContenuMenu">
+                <a href="/Evenement">EVENT</a>
+            </section>
+
+            <section class="ContenuMenu">
+                <a href="/Adresse">ADRESSES</a>
+            </section>
+
+            <section class="ContenuMenu">
+                <a href="Contact">CONTACT</a>
+            </section>
+
+        </section>
+
+    </body>
+
+</html>

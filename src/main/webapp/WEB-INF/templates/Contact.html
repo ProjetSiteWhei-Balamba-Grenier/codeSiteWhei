@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>WHEI</title>
+    </head>
+    
+    <body>
+
+        <section th:replace="~{fragments::menu}"></section>
+
+        <section class="ConteneurAdresse">
+
+            <section th:each="moyenDeContact : ${moyenDeContactList}">
+
+                <section class="ElementAdresse">
+
+                    <img th:src="${'img/' + moyenDeContact.urlImage}">
+                    <section class="ConteneurParagrapheAdresse">
+                        <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
+                        <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>
+                        <section class="descriptionAdresse" th:text="${moyenDeContact.description}"></section>
+                    </section>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <section class="basDePage"></section>
+
+    </body>
+
+</html>
