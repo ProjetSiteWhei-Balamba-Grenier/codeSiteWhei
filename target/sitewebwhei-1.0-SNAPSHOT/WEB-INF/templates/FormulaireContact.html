@@ -9,7 +9,7 @@
 
     <body>
 
-        <section th:replace="~{fragments::menu}"></section>
+        <section th:replace="~{fragments::menuAdmin}"></section>
 
         <section class="ContenuRechercher">
 
@@ -22,6 +22,9 @@
 
                 <section class="TitreChampDeSaisie"> Precision </section>
                 <input type="text" name="precision" maxlength="30" class="ChampDeSaisie" th:value="${precision}">
+
+                <section class="TitreChampDeSaisie"> URL </section>
+                <input type="text" name="urlPrecision" maxlength="200" class="ChampDeSaisie" th:value="${urlPrecision}">
 
                 <section class="TitreChampDeSaisie"> Description </section>
                 <input type="textarea" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">

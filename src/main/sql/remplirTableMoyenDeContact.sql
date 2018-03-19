@@ -1,4 +1,4 @@
-INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, description, url_image) VALUES (1, 'NOM DU MOYEN', 'Groupe Facebook', 'Ma Description', 'photoDeProfil.jpg');
-INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, description, url_image) VALUES (2, 'NOM DU MOYEN', 'Groupe Facebook', 'Ma Description', 'photoDeProfil.jpg');
-INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, description, url_image) VALUES (3, 'NOM DU MOYEN', 'Groupe Facebook', 'Ma Description', 'photoDeProfil.jpg');
-INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, description, url_image) VALUES (4, 'NOM DU MOYEN', 'Groupe Facebook', 'Ma Description', 'photoDeProfil.jpg');
+INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, url_precision, description, url_image) VALUES (1, 'Liste de diffusion SMS', 'INSCRIPTION', 'FormulaireListeDeDiffusion', 'Ma Description', 'photoDeProfil.jpg');
+INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, url_precision, description, url_image) VALUES (2, 'NOM DU MOYEN', 'Groupe Facebook', 'Mon URL', 'Ma Description', 'photoDeProfil.jpg');
+INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, url_precision, description, url_image) VALUES (3, 'NOM DU MOYEN', 'Groupe Facebook', 'Mon URL', 'Ma Description', 'photoDeProfil.jpg');
+INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`, `nom`, `precision`, url_precision, description, url_image) VALUES (4, 'NOM DU MOYEN', 'Groupe Facebook', 'Mon URL', 'Ma Description', 'photoDeProfil.jpg');

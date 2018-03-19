@@ -9,7 +9,7 @@
 
     <body>
 
-        <section th:replace="~{fragments::menu}"></section>
+        <section th:replace="~{fragments::menuAdmin}"></section>
 
         <section class="ConteneurAdresse">
 
@@ -17,14 +17,27 @@
 
                 <section class="ElementAdresse">
 
-                    <a th:href="${'ModifierContact?id='+moyenDeContact.id}">
-                        <img th:src="${'img/' + moyenDeContact.urlImage}">
-                        <section class="ConteneurParagrapheAdresse">
-                            <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
-                            <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>
-                            <section class="descriptionAdresse" th:text="${moyenDeContact.description}"></section>
+                        <section th:if="${moyenDeContact.nom}=='Liste de diffusion SMS'">
+                            <a href="ListeDeDiffusionAdmin">
+                                <img th:src="${'img/' + moyenDeContact.urlImage}">
+                                <section class="ConteneurParagrapheAdresse">
+                                    <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
+                                    <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>
+                                    <section class="descriptionAdresse" th:text="${moyenDeContact.description}"></section>
+                                </section>
+                            </a>
                         </section>
-                    </a>
+
+                    <section th:unless="${moyenDeContact.nom}=='Liste de diffusion SMS'">
+                        <a th:href="${'ModifierContact?id='+moyenDeContact.id}">
+                            <img th:src="${'img/' + moyenDeContact.urlImage}">
+                            <section class="ConteneurParagrapheAdresse">
+                                <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
+                                <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>
+                                <section class="descriptionAdresse" th:text="${moyenDeContact.description}"></section>
+                            </section>
+                        </a>
+                    </section>
 
                 </section>
 

@@ -23,11 +23,11 @@ public class MoyenDeContactDaoTestCase {
              Statement stmt = connection.createStatement()) {
             stmt.executeUpdate("DELETE FROM moyen_de_contact");
             stmt.executeUpdate(
-                    "INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`,`nom`, `precision`, description, url_image) "
-                            + "VALUES (1, 'monNom1', 'maPrecision1', 'maDescription1', 'monUrl1')");
+                    "INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`,`nom`, `precision`, `url_precision`, description, url_image) "
+                            + "VALUES (1, 'monNom1', 'maPrecision1', 'monUrlPrecision1', 'maDescription1', 'monUrl1')");
             stmt.executeUpdate(
-                    "INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`,`nom`, `precision`, description, url_image) "
-                            + "VALUES (2, 'monNom2', 'maPrecision2', 'maDescription2', 'monUrl2')");
+                    "INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`,`nom`, `precision`, `url_precision`, description, url_image) "
+                            + "VALUES (2, 'monNom2', 'maPrecision2', 'monUrlPrecision2', 'maDescription2', 'monUrl2')");
         }
     }
 
@@ -42,7 +42,7 @@ public class MoyenDeContactDaoTestCase {
     @Test
     public void shouldAddMoyenDeContact() throws Exception {
         // GIVEN
-        MoyenDeContact newMoyenDeContact = new MoyenDeContact(null, "monNom", "maPrecision", "maDescription", "monUrl");
+        MoyenDeContact newMoyenDeContact = new MoyenDeContact(null, "monNom", "maPrecision", "monUrlPrecision","maDescription", "monUrl");
         // WHEN
         MoyenDeContact createdMoyenDeContact = moyenDeContactDao.addMoyenDeContact(newMoyenDeContact);
         // THEN
@@ -51,6 +51,7 @@ public class MoyenDeContactDaoTestCase {
         assertThat(createdMoyenDeContact.getId()).isGreaterThan(0);
         assertThat(createdMoyenDeContact.getNom()).isEqualTo("monNom");
         assertThat(createdMoyenDeContact.getPrecision()).isEqualTo("maPrecision");
+        assertThat(createdMoyenDeContact.getUrlPrecision()).isEqualTo("monUrlPrecision");
         assertThat(createdMoyenDeContact.getDescription()).isEqualTo("maDescription");
         assertThat(createdMoyenDeContact.getUrlImage()).isEqualTo("monUrl");
 
@@ -61,6 +62,7 @@ public class MoyenDeContactDaoTestCase {
                 assertThat(rs.getInt("moyen_de_contact_id")).isEqualTo(createdMoyenDeContact.getId());
                 assertThat(rs.getString("nom")).isEqualTo("monNom");
                 assertThat(rs.getString("precision")).isEqualTo("maPrecision");
+                assertThat(rs.getString("url_precision")).isEqualTo("monUrlPrecision");
                 assertThat(rs.getString("description")).isEqualTo("maDescription");
                 assertThat(rs.getString("url_image")).isEqualTo("monUrl");
 
@@ -84,7 +86,7 @@ public class MoyenDeContactDaoTestCase {
 
     @Test
     public void shouldModifierMoyenDeContact() throws Exception{
-        MoyenDeContact moyenDeContact = new MoyenDeContact(1, "monNom", "maPrecision", "maDescription", "monUrl");
+        MoyenDeContact moyenDeContact = new MoyenDeContact(1, "monNom", "maPrecision", "monUrlPrecision", "maDescription", "monUrl");
         moyenDeContactDao.modifierMoyenDeContact(moyenDeContact);
 
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
@@ -94,6 +96,7 @@ public class MoyenDeContactDaoTestCase {
                 assertThat(rs.getInt("moyen_de_contact_id")).isEqualTo(1);
                 assertThat(rs.getString("nom")).isEqualTo("monNom");
                 assertThat(rs.getString("precision")).isEqualTo("maPrecision");
+                assertThat(rs.getString("url_precision")).isEqualTo("monUrlPrecision");
                 assertThat(rs.getString("description")).isEqualTo("maDescription");
                 assertThat(rs.getString("url_image")).isEqualTo("monUrl");
 
@@ -112,6 +115,7 @@ public class MoyenDeContactDaoTestCase {
         assertThat(moyenDeContact.getId()).isEqualTo(1);
         assertThat(moyenDeContact.getNom()).isEqualTo("monNom1");
         assertThat(moyenDeContact.getPrecision()).isEqualTo("maPrecision1");
+        assertThat(moyenDeContact.getUrlPrecision()).isEqualTo("monUrlPrecision1");
         assertThat(moyenDeContact.getDescription()).isEqualTo("maDescription1");
         assertThat(moyenDeContact.getUrlImage()).isEqualTo("monUrl1");
     }

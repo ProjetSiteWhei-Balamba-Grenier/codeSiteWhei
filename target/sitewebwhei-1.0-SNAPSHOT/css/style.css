@@ -158,7 +158,15 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: "Calibri";
+    font-family: Calibri;
+}
+
+.FormulaireListeDeDiffusion {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Calibri;
 }
 
 .TitreChampDeSaisie {
@@ -207,9 +215,19 @@ body {
 .BoutonAjouter a{
     text-decoration: none;
     color: black;
+    font-family: Calibri;
 }
 
 .ConteneurBoutonAjouter{
     display: flex;
     justify-content: center;
+}
+
+.ListeDeDiffusion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: Calibri;
 }

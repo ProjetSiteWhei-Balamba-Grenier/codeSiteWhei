@@ -5,13 +5,15 @@ public class MoyenDeContact {
     private Integer id;
     private String nom;
     private String precision;
+    private String urlPrecision;
     private String description;
     private String urlImage;
 
-    public MoyenDeContact(Integer id, String nom, String precision, String description, String urlImage){
+    public MoyenDeContact(Integer id, String nom, String precision, String urlPrecision, String description, String urlImage){
         this.id = id;
         this.nom = nom;
         this.precision = precision;
+        this.urlPrecision = urlPrecision;
         this.description = description;
         this.urlImage = urlImage;
     }
@@ -51,4 +53,8 @@ public class MoyenDeContact {
     public void setUrlImage(String urlImage) {
         this.urlImage = urlImage;
     }
+
+    public String getUrlPrecision() { return urlPrecision; }
+
+    public void setUrlPrecision(String urlPrecision) { this.urlPrecision = urlPrecision;    }
 }

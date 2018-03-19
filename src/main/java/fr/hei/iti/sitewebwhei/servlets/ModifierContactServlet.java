@@ -21,6 +21,7 @@ public class ModifierContactServlet extends HttpServlet {
         Integer moyenDeContactId = null;
         String nom = null;
         String precision = null;
+        String urlPrecision = null;
         String description = null;
         String urlImage = null;
 
@@ -28,6 +29,7 @@ public class ModifierContactServlet extends HttpServlet {
             moyenDeContactId = Integer.parseInt(req.getParameter("moyenDeContactId"));
             nom = req.getParameter("nom");
             precision = req.getParameter("precision");
+            urlPrecision = req.getParameter("urlPrecision");
             description = req.getParameter("description");
             urlImage = "photoDeProfil.jpg";
         }
@@ -35,7 +37,7 @@ public class ModifierContactServlet extends HttpServlet {
         catch (NumberFormatException ignored) {
         }
 
-        MoyenDeContact moyenDeContactModifie = new MoyenDeContact(moyenDeContactId, nom, precision, description, urlImage);
+        MoyenDeContact moyenDeContactModifie = new MoyenDeContact(moyenDeContactId, nom, precision, urlPrecision, description, urlImage);
 
         try {
             MoyenDeContactLibrary.getInstance().modifierMoyenDeContact(moyenDeContactModifie);
@@ -60,6 +62,7 @@ public class ModifierContactServlet extends HttpServlet {
         context.setVariable("moyenDeContactId", moyenDeContactId);
         context.setVariable("nom", moyenDeContact.getNom());
         context.setVariable("precision", moyenDeContact.getPrecision());
+        context.setVariable("urlPrecision", moyenDeContact.getUrlPrecision());
         context.setVariable("description", moyenDeContact.getDescription());
         context.setVariable("urlImage", moyenDeContact.getUrlImage());
 

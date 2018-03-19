@@ -22,8 +22,8 @@ public class EtudiantDaoImpl implements EtudiantDao {
                 listOfEtudiant.add(
                         new Etudiant(
                                 resultSet.getInt("etudiant_id"),
-                                resultSet.getString("nom"),
                                 resultSet.getString("prenom"),
+                                resultSet.getString("nom"),
                                 resultSet.getString("telephone"))
                 );
             }

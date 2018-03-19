@@ -25,6 +25,7 @@ public class MoyenDeContactDaoImpl implements MoyenDeContactDao{
                                 resultSet.getInt("moyen_de_contact_id"),
                                 resultSet.getString("nom"),
                                 resultSet.getString("precision"),
+                                resultSet.getString("url_precision"),
                                 resultSet.getString("description"),
                                 resultSet.getString("url_image"))
                 );
@@ -37,13 +38,14 @@ public class MoyenDeContactDaoImpl implements MoyenDeContactDao{
 
     @Override
     public MoyenDeContact addMoyenDeContact(MoyenDeContact moyenDeContact) {
-        String query = "INSERT INTO moyen_de_contact(nom, `precision`, description, url_image) VALUES(?, ?, ?, ?)";
+        String query = "INSERT INTO moyen_de_contact(nom, `precision`, `url_precision` description, url_image) VALUES(?, ?, ?, ?, ?)";
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, moyenDeContact.getNom());
             statement.setString(2, moyenDeContact.getPrecision());
-            statement.setString(3, moyenDeContact.getDescription());
-            statement.setString(4, moyenDeContact.getUrlImage());
+            statement.setString(3, moyenDeContact.getUrlPrecision());
+            statement.setString(4, moyenDeContact.getDescription());
+            statement.setString(5, moyenDeContact.getUrlImage());
             statement.executeUpdate();
 
             try (ResultSet ids = statement.getGeneratedKeys()) {
@@ -75,14 +77,15 @@ public class MoyenDeContactDaoImpl implements MoyenDeContactDao{
     @Override
     public void modifierMoyenDeContact(MoyenDeContact moyenDeContact) {
 
-        String query = "UPDATE moyen_de_contact SET nom = ?, `precision` = ?, description = ?, url_image = ? where moyen_de_contact_id = ?;";
+        String query = "UPDATE moyen_de_contact SET nom = ?, `precision` = ?, `url_precision` = ?, description = ?, url_image = ? where moyen_de_contact_id = ?;";
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setString(1, moyenDeContact.getNom());
             statement.setString(2, moyenDeContact.getPrecision());
-            statement.setString(3, moyenDeContact.getDescription());
-            statement.setString(4, moyenDeContact.getUrlImage());
-            statement.setInt(5, moyenDeContact.getId());
+            statement.setString(3, moyenDeContact.getUrlPrecision());
+            statement.setString(4, moyenDeContact.getDescription());
+            statement.setString(5, moyenDeContact.getUrlImage());
+            statement.setInt(6, moyenDeContact.getId());
             statement.executeUpdate();
         }
 
@@ -103,6 +106,7 @@ public class MoyenDeContactDaoImpl implements MoyenDeContactDao{
                             resultSet.getInt("moyen_de_contact_id"),
                             resultSet.getString("nom"),
                             resultSet.getString("precision"),
+                            resultSet.getString("url_precision"),
                             resultSet.getString("description"),
                             resultSet.getString("url_image"));
                 }
