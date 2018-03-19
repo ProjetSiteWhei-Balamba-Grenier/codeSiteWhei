@@ -6,6 +6,7 @@ fr\hei\iti\sitewebwhei\dao\impl\EtudiantDaoImpl.class
 fr\hei\iti\sitewebwhei\servlets\ModifierMembreServlet.class
 fr\hei\iti\sitewebwhei\servlets\SupprimerMembreServlet.class
 fr\hei\iti\sitewebwhei\dao\AdresseDao.class
+fr\hei\iti\sitewebwhei\servlets\FormulaireListeDeDiffusionServlet.class
 fr\hei\iti\sitewebwhei\servlets\AccueilAdminServlet.class
 fr\hei\iti\sitewebwhei\servlets\ModifierAdresseServlet.class
 fr\hei\iti\sitewebwhei\dao\EtudiantDao.class
@@ -37,6 +38,8 @@ fr\hei\iti\sitewebwhei\filters\EncodingFilter.class
 fr\hei\iti\sitewebwhei\managers\EtudiantLibrary.class
 fr\hei\iti\sitewebwhei\managers\MoyenDeContactLibrary.class
 fr\hei\iti\sitewebwhei\managers\MembreLibrary$MembreLibraryHolder.class
+fr\hei\iti\sitewebwhei\servlets\ListeDeDiffusionAdminServlet.class
 fr\hei\iti\sitewebwhei\entities\Adresse.class
+fr\hei\iti\sitewebwhei\servlets\PortailAdminServlet.class
 fr\hei\iti\sitewebwhei\servlets\AdresseAdminServlet.class
 fr\hei\iti\sitewebwhei\servlets\AjouterAdresseServlet.class

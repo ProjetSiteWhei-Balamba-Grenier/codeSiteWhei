@@ -7,6 +7,7 @@ C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhe
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\ContactAdminServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\IntegraleServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\managers\MoyenDeContactLibrary.java
+C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\PortailAdminServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\SupprimerMembreServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\SupprimerContactServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\dao\AssociationDao.java
@@ -25,6 +26,7 @@ C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhe
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\entities\Etudiant.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\AjouterMembreServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\AjouterAdresseServlet.java
+C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\FormulaireListeDeDiffusionServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\AdresseAdminServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\ModifierAdresseServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\dao\MoyenDeContactDao.java
@@ -34,6 +36,7 @@ C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhe
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\AdresseServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\AjouterContactServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\AccueilServlet.java
+C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\ListeDeDiffusionAdminServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets\ModifierMembreServlet.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\dao\impl\MoyenDeContactDaoImpl.java
 C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\managers\EvenementLibrary.java

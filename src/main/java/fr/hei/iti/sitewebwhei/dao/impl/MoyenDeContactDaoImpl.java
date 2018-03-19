@@ -38,7 +38,7 @@ public class MoyenDeContactDaoImpl implements MoyenDeContactDao{
 
     @Override
     public MoyenDeContact addMoyenDeContact(MoyenDeContact moyenDeContact) {
-        String query = "INSERT INTO moyen_de_contact(nom, `precision`, `url_precision` description, url_image) VALUES(?, ?, ?, ?, ?)";
+        String query = "INSERT INTO moyen_de_contact(nom, `precision`, `url_precision`, description, url_image) VALUES(?, ?, ?, ?, ?)";
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, moyenDeContact.getNom());
