@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>WHEI</title>
+    </head>
+
+    <body>
+
+        <section th:replace="~{fragments::menuAdmin}"></section>
+
+        <section class="Titre1">LE WHEI</section>
+
+        <section class="ConteneurParagraphe">
+            <section class="Paragraphe">DESCRIPTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</section>
+        </section>
+
+        <section class="Titre2">LE BUREAU</section>
+
+        <section class="ListMembre">
+            <section th:each="membre : ${membreList}">
+                <section th:unless="${membre.poste}=='Encadrant'" class="Membre">
+                    <a th:href="${'ModifierMembre?id='+membre.id}">
+                        <img th:src="${'/img/' + membre.urlImage}">
+                        <section th:text="${membre.prenom+' '+membre.nom}"></section>
+                        <section th:text="${membre.poste}"></section>
+                        <section th:text="${membre.description}"></section>
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <section class="Titre2">LES ENCADRANTS</section>
+
+        <section class="ListMembre">
+            <section th:each="membre : ${membreList}">
+                <section th:if="${membre.poste}=='Encadrant'" class="Membre">
+                    <a th:href="${'ModifierMembre?id='+membre.id}">
+                        <img th:src="${'/img/' + membre.urlImage}">
+                        <section th:text="${membre.prenom+' '+membre.nom}"></section>
+                        <section th:text="${membre.description}"></section>
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <section class="ConteneurBoutonAjouter">
+            <section class="BoutonAjouter">
+                <a href="AjouterMembre">Ajouter</a>
+            </section>
+        </section>
+
+        <section class="basDePage"></section>
+
+    </body>
+
+</html>

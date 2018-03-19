@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
         <title>WHEI</title>
     </head>
 
@@ -19,7 +19,7 @@
 
                         <section th:if="${moyenDeContact.nom}=='Liste de diffusion SMS'">
                             <a href="ListeDeDiffusionAdmin">
-                                <img th:src="${'img/' + moyenDeContact.urlImage}">
+                                <img th:src="${'/img/' + moyenDeContact.urlImage}">
                                 <section class="ConteneurParagrapheAdresse">
                                     <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
                                     <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>
@@ -30,7 +30,7 @@
 
                     <section th:unless="${moyenDeContact.nom}=='Liste de diffusion SMS'">
                         <a th:href="${'ModifierContact?id='+moyenDeContact.id}">
-                            <img th:src="${'img/' + moyenDeContact.urlImage}">
+                            <img th:src="${'/img/' + moyenDeContact.urlImage}">
                             <section class="ConteneurParagrapheAdresse">
                                 <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
                                 <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>
@@ -47,7 +47,7 @@
 
         <section class="ConteneurBoutonAjouter">
             <section class="BoutonAjouter">
-                <a href="/AjouterContact">Ajouter</a>
+                <a href="AjouterContact">Ajouter</a>
             </section>
         </section>
 

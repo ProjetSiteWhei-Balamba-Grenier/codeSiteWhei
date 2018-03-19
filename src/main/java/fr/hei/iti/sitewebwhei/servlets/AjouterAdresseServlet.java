@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.format.DateTimeParseException;
 
-@WebServlet("/AjouterAdresse")
+@WebServlet("/admin/AjouterAdresse")
 public class AjouterAdresseServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

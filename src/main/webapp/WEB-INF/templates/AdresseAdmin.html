@@ -3,7 +3,7 @@
 
         <head>
             <meta charset="UTF-8">
-            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="/css/style.css">
             <title>WHEI</title>
         </head>
 
@@ -18,7 +18,7 @@
                 <section class="ElementAdresse">
 
                     <a th:href="${'ModifierAdresse?id='+adresse.id}">
-                        <img th:src="${'img/'+adresse.urlImage}">
+                        <img th:src="${'/img/'+adresse.urlImage}">
                         <section class="ConteneurParagrapheAdresse">
                             <section class="nomAdresse" th:text="${adresse.nom}"></section>
                             <section class="typeEtAdresse" th:text="${adresse.type + ' - ' + adresse.adresse}"></section>
@@ -35,7 +35,7 @@
 
         <section class="ConteneurBoutonAjouter">
             <section class="BoutonAjouter">
-                <a href="/AjouterAdresse">Ajouter</a>
+                <a href="AjouterAdresse">Ajouter</a>
             </section>
         </section>
 

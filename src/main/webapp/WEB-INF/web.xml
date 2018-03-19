@@ -19,4 +19,14 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+    <filter>
+        <filter-name>AuthentificationFiltre</filter-name>
+        <filter-class>fr.hei.iti.sitewebwhei.filters.AuthentificationFiltre</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>AuthentificationFiltre</filter-name>
+        <url-pattern>/admin/*</url-pattern>
+    </filter-mapping>
+
 </web-app>

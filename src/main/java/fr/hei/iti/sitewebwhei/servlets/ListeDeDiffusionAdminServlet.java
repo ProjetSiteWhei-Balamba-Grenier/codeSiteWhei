@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/ListeDeDiffusionAdmin")
+@WebServlet("/admin/ListeDeDiffusionAdmin")
 public class ListeDeDiffusionAdminServlet extends HttpServlet{
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

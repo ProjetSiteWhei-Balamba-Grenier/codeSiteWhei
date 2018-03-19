@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/SupprimerAdresse")
+@WebServlet("/admin/SupprimerAdresse")
 public class SupprimerAdresseServlet extends HttpServlet {
 
     @Override

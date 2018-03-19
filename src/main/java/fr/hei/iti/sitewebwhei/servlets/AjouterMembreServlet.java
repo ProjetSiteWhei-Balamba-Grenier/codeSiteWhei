@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.time.format.DateTimeParseException;
 import java.util.List;
 
-@WebServlet("/AjouterMembre")
+@WebServlet("/admin/AjouterMembre")
 public class AjouterMembreServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
