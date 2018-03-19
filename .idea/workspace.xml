@@ -10,63 +10,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d749e97a-5914-4012-83c2-a0fa98ec7e04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_mkammerer_argon2_jvm_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/utils/MotDePasseUtils.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/IntegraleServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Integrale.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/sitewebwhei_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sitewebwhei_war_exploded.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-java8time-3.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/lib/unbescape-1.1.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/Accueil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/AccueilAdmin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/Adresse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/AdresseAdmin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/Contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/ContactAdmin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/Ecole.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireAdresse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireContact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireListeDeDiffusion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireMembre.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/ListeDeDiffusionAdmin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/PortailAdmin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/fragments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/AdresseDaoTestCase.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/EtudiantDaoTestCase.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/MembreDaoTestCase.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/MoyenDeContactDaoTestCase.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AdresseDaoTestCase.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EtudiantDaoTestCase.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MembreDaoTestCase.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MoyenDeContactDaoTestCase.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/AdresseDaoTestCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/EtudiantDaoTestCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/MembreDaoTestCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/MoyenDeContactDaoTestCase.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitewebwhei.iml" afterPath="$PROJECT_DIR$/sitewebwhei.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Accueil.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Accueil.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AccueilAdmin.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AccueilAdmin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AdresseAdmin.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AdresseAdmin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ContactAdmin.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ContactAdmin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireAdresse.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireAdresse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireContact.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireContact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ListeDeDiffusionAdmin.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ListeDeDiffusionAdmin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/AdresseDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/AdresseDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/EtudiantDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/EtudiantDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/MembreDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/MembreDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/MoyenDeContactDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/MoyenDeContactDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AdresseDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AdresseDaoTestCase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EtudiantDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-EtudiantDaoTestCase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MembreDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MembreDaoTestCase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MoyenDeContactDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MoyenDeContactDaoTestCase.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/utils/MotDePasseUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="771">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,8 +139,8 @@
       <file leaf-file-name="AccueilAdminServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+            <state relative-caret-position="160">
+              <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -822,7 +796,7 @@
       <workItem from="1521449176269" duration="2621000" />
       <workItem from="1521451962659" duration="411000" />
       <workItem from="1521452793461" duration="6304000" />
-      <workItem from="1521484180729" duration="3419000" />
+      <workItem from="1521484180729" duration="3617000" />
     </task>
     <servers />
   </component>
@@ -859,7 +833,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130492000" />
+    <option name="totallyTimeSpent" value="130690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +846,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1327,7 +1300,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/utils/MotDePasseUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1344,8 +1317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+        <state relative-caret-position="160">
+          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
