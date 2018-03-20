@@ -7,6 +7,7 @@ fr\hei\iti\sitewebwhei\servlets\ModifierMembreServlet.class
 fr\hei\iti\sitewebwhei\servlets\SupprimerMembreServlet.class
 fr\hei\iti\sitewebwhei\dao\AdresseDao.class
 fr\hei\iti\sitewebwhei\servlets\FormulaireListeDeDiffusionServlet.class
+fr\hei\iti\sitewebwhei\utils\MotDePasseUtils.class
 fr\hei\iti\sitewebwhei\servlets\AccueilAdminServlet.class
 fr\hei\iti\sitewebwhei\servlets\ModifierAdresseServlet.class
 fr\hei\iti\sitewebwhei\dao\EtudiantDao.class
@@ -29,6 +30,8 @@ fr\hei\iti\sitewebwhei\servlets\AjouterContactServlet.class
 fr\hei\iti\sitewebwhei\servlets\AjouterMembreServlet.class
 fr\hei\iti\sitewebwhei\servlets\SupprimerContactServlet.class
 fr\hei\iti\sitewebwhei\dao\MoyenDeContactDao.class
+fr\hei\iti\sitewebwhei\filters\AuthentificationFiltre.class
+fr\hei\iti\sitewebwhei\servlets\DeconnexionServlet.class
 fr\hei\iti\sitewebwhei\managers\MoyenDeContactLibrary$MoyenDeContactLibraryHolder.class
 fr\hei\iti\sitewebwhei\servlets\AdresseServlet.class
 fr\hei\iti\sitewebwhei\managers\EtudiantLibrary$EtudiantLibraryHolder.class

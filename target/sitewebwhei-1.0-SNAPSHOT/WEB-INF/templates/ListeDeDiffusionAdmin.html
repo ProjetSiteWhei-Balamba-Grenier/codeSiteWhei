@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>WHEI</title>
+    </head>
+
+    <body>
+
+        <section th:replace="~{fragments::menuAdmin}"></section>
+
+        <section class="Titre1">LISTE DE DIFFUSION SMS</section>
+
+        <section class="ListeDeDiffusion">
+
+            <section th:each="etudiant : ${etudiantList}">
+                <section>
+                    <section th:text="${etudiant.prenom + ' - ' + etudiant.nom + ' - ' + etudiant.telephone}"></section>
+                </section>
+            </section>
+
+        </section>
+
+        <section class="basDePage"></section>
+
+    </body>
+
+</html>
