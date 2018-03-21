@@ -22,9 +22,63 @@ public class MembreLibrary {
 
     public void deleteMembre(Integer id) {membreDao.deleteMembre(id);}
 
-    public void modifierMembre(Membre membre) {membreDao.modifierMembre(membre);}
+    public void modifierMembre(Membre membre) {
 
-    public Membre addMembre(Membre membre) {return membreDao.addMembre(membre);}
+        if (membre == null) {
+            throw new IllegalArgumentException("Le membre n'existe pas.");
+        }
+
+        if (membre.getDescription() == null || "".equals(membre.getDescription())) {
+            throw new IllegalArgumentException("La description ne devrait pas être vide.");
+        }
+
+        if (membre.getNom() == null || "".equals(membre.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        if (membre.getPoste() == null || "".equals(membre.getPoste())) {
+            throw new IllegalArgumentException("Le poste ne devrait pas être vide.");
+        }
+
+        if (membre.getPrenom() == null || "".equals(membre.getPrenom())) {
+            throw new IllegalArgumentException("Le prénom ne devrait pas être vide.");
+        }
+
+        if (membre.getUrlImage() == null || "".equals(membre.getUrlImage())) {
+            throw new IllegalArgumentException("L'URL image ne devrait pas être vide.");
+        }
+
+        membreDao.modifierMembre(membre);
+    }
+
+    public Membre addMembre(Membre membre) {
+
+        if (membre == null) {
+            throw new IllegalArgumentException("Le membre n'existe pas.");
+        }
+
+        if (membre.getDescription() == null || "".equals(membre.getDescription())) {
+            throw new IllegalArgumentException("La description ne devrait pas être vide.");
+        }
+
+        if (membre.getNom() == null || "".equals(membre.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        if (membre.getPoste() == null || "".equals(membre.getPoste())) {
+            throw new IllegalArgumentException("Le poste ne devrait pas être vide.");
+        }
+
+        if (membre.getPrenom() == null || "".equals(membre.getPrenom())) {
+            throw new IllegalArgumentException("Le prénom ne devrait pas être vide.");
+        }
+
+        if (membre.getUrlImage() == null || "".equals(membre.getUrlImage())) {
+            throw new IllegalArgumentException("L'URL image ne devrait pas être vide.");
+        }
+
+        return membreDao.addMembre(membre);
+    }
 
     public Membre getMembre(Integer id) {return membreDao.getMembre(id);}
 

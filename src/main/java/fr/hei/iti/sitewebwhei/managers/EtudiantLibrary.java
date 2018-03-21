@@ -20,11 +20,47 @@ public class EtudiantLibrary {
 
     public List<Etudiant> listEtudiant() {return etudiantDao.listEtudiant();}
 
-    public Etudiant addEtudiant(Etudiant etudiant) {return etudiantDao.addEtudiant(etudiant);}
+    public Etudiant addEtudiant(Etudiant etudiant) {
+
+        if (etudiant == null) {
+            throw new IllegalArgumentException("L'etudiant n'existe pas.");
+        }
+        if (etudiant.getTelephone() == null || "".equals(etudiant.getTelephone())) {
+            throw new IllegalArgumentException("Le téléphone ne devrait pas être vide.");
+        }
+
+        if (etudiant.getPrenom() == null || "".equals(etudiant.getPrenom())) {
+            throw new IllegalArgumentException("Le prénom ne devrait pas être vide.");
+        }
+
+        if (etudiant.getNom() == null || "".equals(etudiant.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        return etudiantDao.addEtudiant(etudiant);
+    }
 
     public void deleteEtudiant(Integer id) {etudiantDao.deleteEtudiant(id);}
 
-    public void modifierEtudiant(Etudiant etudiant) {etudiantDao.modifierEtudiant(etudiant);}
+    public void modifierEtudiant(Etudiant etudiant) {
+
+        if (etudiant == null) {
+            throw new IllegalArgumentException("L'etudiant n'existe pas.");
+        }
+        if (etudiant.getTelephone() == null || "".equals(etudiant.getTelephone())) {
+            throw new IllegalArgumentException("Le téléphone ne devrait pas être vide.");
+        }
+
+        if (etudiant.getPrenom() == null || "".equals(etudiant.getPrenom())) {
+            throw new IllegalArgumentException("Le prénom ne devrait pas être vide.");
+        }
+
+        if (etudiant.getNom() == null || "".equals(etudiant.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        etudiantDao.modifierEtudiant(etudiant);
+    }
 
     public Etudiant getEtudiant(Integer id) {return etudiantDao.getEtudiant(id);}
 }

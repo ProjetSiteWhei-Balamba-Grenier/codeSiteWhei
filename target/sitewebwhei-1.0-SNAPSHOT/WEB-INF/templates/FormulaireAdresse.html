@@ -13,7 +13,7 @@
 
         <section class="ContenuRechercher">
 
-            <form action="" method="post">
+            <form action="/php/upload.php" method="post" enctype="multipart/form-data">
 
                 <input type="hidden" name="adresseId" th:value="${adresseId}">
 
@@ -32,11 +32,9 @@
                 <section class="TitreChampDeSaisie"> Description </section>
                 <input type="textarea" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">
 
-                <section class="ConteneurBoutonSupprimer">
-                    <section class="TitreDescription">
-                        <a href="">Importer une image</a>
-                    </section>
-                </section>
+                <input type="hidden" name="MAX_FILE_SIZE" value="10000000" />
+                <section class="TitreChampDeSaisie"> Importer une image </section>
+                <input type="file" name="image" id="image">
 
                 <section class="ConteneurBoutonSupprimer">
                     <section class="TitreDescription">

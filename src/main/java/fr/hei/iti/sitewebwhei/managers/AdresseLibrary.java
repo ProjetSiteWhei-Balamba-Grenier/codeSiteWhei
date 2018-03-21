@@ -22,9 +22,67 @@ public class AdresseLibrary {
 
     public void deleteAdresse(Integer id) {adresseDao.deleteAdresse(id);}
 
-    public void modifierAdresse(Adresse adresse) {adresseDao.modifierAdresse(adresse);}
+    public void modifierAdresse(Adresse adresse) {
 
-    public Adresse addAdresse(Adresse adresse) {return adresseDao.addAdresse(adresse);}
+        if (adresse == null) {
+            throw new IllegalArgumentException("L'adresse n'existe pas.");
+        }
+        if (adresse.getAdresse() == null || "".equals(adresse.getAdresse())) {
+            throw new IllegalArgumentException("L'adresse ne devrait pas être vide.");
+        }
+        if (adresse.getDescription() == null || "".equals(adresse.getDescription())) {
+            throw new IllegalArgumentException("La dersciption ne devrait pas être vide.");
+        }
+
+        if (adresse.getHoraires() == null || "".equals(adresse.getHoraires())) {
+            throw new IllegalArgumentException("L'horraire ne devrait pas être vide.");
+        }
+
+        if (adresse.getNom() == null || "".equals(adresse.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        if (adresse.getType() == null || "".equals(adresse.getType())) {
+            throw new IllegalArgumentException("Le type ne devrait pas être vide.");
+        }
+
+        if (adresse.getUrlImage() == null || "".equals(adresse.getUrlImage())) {
+            throw new IllegalArgumentException("L'URL image ne devrait pas être vide.");
+        }
+
+        adresseDao.modifierAdresse(adresse);
+    }
+
+    public Adresse addAdresse(Adresse adresse) {
+
+        if (adresse == null) {
+            throw new IllegalArgumentException("L'adresse n'existe pas.");
+        }
+        if (adresse.getAdresse() == null || "".equals(adresse.getAdresse())) {
+            throw new IllegalArgumentException("L'adresse ne devrait pas être vide.");
+        }
+        if (adresse.getDescription() == null || "".equals(adresse.getDescription())) {
+            throw new IllegalArgumentException("La dersciption ne devrait pas être vide.");
+        }
+
+        if (adresse.getHoraires() == null || "".equals(adresse.getHoraires())) {
+            throw new IllegalArgumentException("L'horraire ne devrait pas être vide.");
+        }
+
+        if (adresse.getNom() == null || "".equals(adresse.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        if (adresse.getType() == null || "".equals(adresse.getType())) {
+            throw new IllegalArgumentException("Le type ne devrait pas être vide.");
+        }
+
+        if (adresse.getUrlImage() == null || "".equals(adresse.getUrlImage())) {
+            throw new IllegalArgumentException("L'URL image ne devrait pas être vide.");
+        }
+
+        return adresseDao.addAdresse(adresse);
+    }
 
     public Adresse getAdresse(Integer id) {return adresseDao.getAdresse(id);}
 }

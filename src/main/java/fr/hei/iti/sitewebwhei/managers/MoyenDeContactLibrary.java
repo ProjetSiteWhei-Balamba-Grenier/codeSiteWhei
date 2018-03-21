@@ -22,9 +22,63 @@ public class MoyenDeContactLibrary {
 
     public void deleteMoyenDeContact(Integer id) {moyenDeContactDao.deleteMoyenDeContact(id);}
 
-    public void modifierMoyenDeContact(MoyenDeContact moyenDeContact) {moyenDeContactDao.modifierMoyenDeContact(moyenDeContact);}
+    public void modifierMoyenDeContact(MoyenDeContact moyenDeContact) {
 
-    public MoyenDeContact addMoyenDeContact(MoyenDeContact moyenDeContact) {return moyenDeContactDao.addMoyenDeContact(moyenDeContact);}
+        if (moyenDeContact == null) {
+            throw new IllegalArgumentException("Le moyen de contact n'existe pas.");
+        }
+
+        if (moyenDeContact.getDescription() == null || "".equals(moyenDeContact.getDescription())) {
+            throw new IllegalArgumentException("La description ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getNom() == null || "".equals(moyenDeContact.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getPrecision() == null || "".equals(moyenDeContact.getPrecision())) {
+            throw new IllegalArgumentException("La précision ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getUrlImage() == null || "".equals(moyenDeContact.getUrlImage())) {
+            throw new IllegalArgumentException("L'URL image ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getUrlPrecision() == null || "".equals(moyenDeContact.getUrlPrecision())) {
+            throw new IllegalArgumentException("L'URL précision ne devrait pas être vide.");
+        }
+
+        moyenDeContactDao.modifierMoyenDeContact(moyenDeContact);
+    }
+
+    public MoyenDeContact addMoyenDeContact(MoyenDeContact moyenDeContact) {
+
+        if (moyenDeContact == null) {
+            throw new IllegalArgumentException("Le moyen de contact n'existe pas.");
+        }
+
+        if (moyenDeContact.getDescription() == null || "".equals(moyenDeContact.getDescription())) {
+            throw new IllegalArgumentException("La description ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getNom() == null || "".equals(moyenDeContact.getNom())) {
+            throw new IllegalArgumentException("Le nom ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getPrecision() == null || "".equals(moyenDeContact.getPrecision())) {
+            throw new IllegalArgumentException("La précision ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getUrlImage() == null || "".equals(moyenDeContact.getUrlImage())) {
+            throw new IllegalArgumentException("L'URL image ne devrait pas être vide.");
+        }
+
+        if (moyenDeContact.getUrlPrecision() == null || "".equals(moyenDeContact.getUrlPrecision())) {
+            throw new IllegalArgumentException("L'URL précision ne devrait pas être vide.");
+        }
+
+        return moyenDeContactDao.addMoyenDeContact(moyenDeContact);
+    }
 
     public MoyenDeContact getMoyenDeContact(Integer id) {return moyenDeContactDao.getMoyenDeContact(id);}
 

@@ -7,7 +7,6 @@ fr\hei\iti\sitewebwhei\servlets\ModifierMembreServlet.class
 fr\hei\iti\sitewebwhei\servlets\SupprimerMembreServlet.class
 fr\hei\iti\sitewebwhei\dao\AdresseDao.class
 fr\hei\iti\sitewebwhei\servlets\FormulaireListeDeDiffusionServlet.class
-fr\hei\iti\sitewebwhei\utils\MotDePasseUtils.class
 fr\hei\iti\sitewebwhei\servlets\AccueilAdminServlet.class
 fr\hei\iti\sitewebwhei\servlets\ModifierAdresseServlet.class
 fr\hei\iti\sitewebwhei\dao\EtudiantDao.class
