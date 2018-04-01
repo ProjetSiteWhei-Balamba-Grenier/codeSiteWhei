@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.net.URL;
 import java.time.format.DateTimeParseException;
 import java.util.List;
 
@@ -20,6 +21,10 @@ import java.util.List;
 public class AjouterMembreServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        URL location = AjouterMembreServlet.class.getProtectionDomain().getCodeSource().getLocation();
+        System.out.println(location.getFile());
+        String monChemin = location.getFile();
 
         // GET PARAMETERS
         String prenom = null;
@@ -33,7 +38,7 @@ public class AjouterMembreServlet extends HttpServlet {
             nom = req.getParameter("nom");
             poste = req.getParameter("poste");
             description = req.getParameter("description");
-            urlImage = "photoDeProfil.jpg";
+            urlImage = monChemin;
         }
 
         catch (NumberFormatException | DateTimeParseException ignored) {
