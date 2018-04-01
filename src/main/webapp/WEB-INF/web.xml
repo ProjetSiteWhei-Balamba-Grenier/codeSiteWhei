@@ -29,4 +29,16 @@
         <url-pattern>/admin/*</url-pattern>
     </filter-mapping>
 
+    <servlet>
+        <servlet-name>AjouterContactServlet</servlet-name>
+        <servlet-class>fr.hei.iti.sitewebwhei.servlets.AjouterContactServlet</servlet-class>
+        <multipart-config>
+            <max-file-size>10485760</max-file-size> <!-- 10 Mo -->
+        </multipart-config>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AjouterContactServlet</servlet-name>
+        <url-pattern>/admin/AjouterContact</url-pattern>
+    </servlet-mapping>
+
 </web-app>
