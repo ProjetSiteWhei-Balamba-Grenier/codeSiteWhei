@@ -22,11 +22,6 @@ public class AjouterMembreServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        URL location = AjouterMembreServlet.class.getProtectionDomain().getCodeSource().getLocation();
-        System.out.println(location.getFile());
-        String monChemin = location.getFile();
-
-
         // GET PARAMETERS
         String prenom = null;
         String nom = null;
@@ -39,7 +34,7 @@ public class AjouterMembreServlet extends HttpServlet {
             nom = req.getParameter("nom");
             poste = req.getParameter("poste");
             description = req.getParameter("description");
-            urlImage = monChemin;
+            urlImage = "photoDeProfil.jpg";
         }
 
         catch (NumberFormatException | DateTimeParseException ignored) {

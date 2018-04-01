@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="AdresseDaoTestCase" time="9.879" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="AdresseDaoTestCase" time="10.228" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -63,9 +63,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="AdresseDaoTestCase" name="shouldModifierAdresse" time="2.613"/>
-  <testcase classname="AdresseDaoTestCase" name="shouldGetAdresse" time="1.408"/>
-  <testcase classname="AdresseDaoTestCase" name="ShouldListAdresse" time="1.699"/>
-  <testcase classname="AdresseDaoTestCase" name="shouldAddAdresse" time="2.088"/>
-  <testcase classname="AdresseDaoTestCase" name="shouldDeleteAdresse" time="2.071"/>
+  <testcase classname="AdresseDaoTestCase" name="shouldModifierAdresse" time="2.589"/>
+  <testcase classname="AdresseDaoTestCase" name="shouldGetAdresse" time="1.471"/>
+  <testcase classname="AdresseDaoTestCase" name="ShouldListAdresse" time="1.451"/>
+  <testcase classname="AdresseDaoTestCase" name="shouldAddAdresse" time="2.106"/>
+  <testcase classname="AdresseDaoTestCase" name="shouldDeleteAdresse" time="2.611"/>
 </testsuite>

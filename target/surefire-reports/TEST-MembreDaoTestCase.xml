@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="MembreDaoTestCase" time="9.201" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="MembreDaoTestCase" time="9.808" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -63,9 +63,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="MembreDaoTestCase" name="shouldModifierMembre" time="2.268"/>
-  <testcase classname="MembreDaoTestCase" name="shouldAddMembre" time="2.063"/>
-  <testcase classname="MembreDaoTestCase" name="shouldGetMembre" time="1.397"/>
-  <testcase classname="MembreDaoTestCase" name="shouldDeleteMembre" time="2.038"/>
-  <testcase classname="MembreDaoTestCase" name="ShouldListMembre" time="1.435"/>
+  <testcase classname="MembreDaoTestCase" name="shouldModifierMembre" time="2.386"/>
+  <testcase classname="MembreDaoTestCase" name="shouldAddMembre" time="2.104"/>
+  <testcase classname="MembreDaoTestCase" name="shouldGetMembre" time="1.465"/>
+  <testcase classname="MembreDaoTestCase" name="shouldDeleteMembre" time="2.12"/>
+  <testcase classname="MembreDaoTestCase" name="ShouldListMembre" time="1.733"/>
 </testsuite>

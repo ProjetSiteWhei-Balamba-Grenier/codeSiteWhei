@@ -25,23 +25,13 @@ public class AjouterContactServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     public static final int TAILLE_TAMPON = 10240;
-    public static final String CHEMIN_FICHIERS = "/app/src/main/webapp/img/";
+    public static final String CHEMIN_FICHIERS = "/app/img/";
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        Path currentRelativePath = Paths.get("");
-        String s = currentRelativePath.toAbsolutePath().toString();
-        System.out.println("Current relative path is: " + s);
 
         URL location = AjouterContactServlet.class.getProtectionDomain().getCodeSource().getLocation();
         System.out.println(location.getFile());
         String monChemin = location.getFile();
-
-        Iterable<Path> listeRacine = FileSystems.getDefault().getRootDirectories();
-        System.out.println(listeRacine);
-
-        File[] listeRacine2 = File.listRoots();
-        System.out.println(listeRacine2);
 
         Part part = req.getPart("image");
 
@@ -73,7 +63,7 @@ public class AjouterContactServlet extends HttpServlet {
             precision = req.getParameter("precision");
             urlPrecision = req.getParameter("urlPrecision");
             description = req.getParameter("description");
-            urlImage = monChemin;
+            urlImage = nomFichier;
         }
 
         catch (NumberFormatException | DateTimeParseException ignored) {
