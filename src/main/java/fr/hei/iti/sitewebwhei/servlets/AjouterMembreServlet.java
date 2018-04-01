@@ -26,6 +26,7 @@ public class AjouterMembreServlet extends HttpServlet {
         System.out.println(location.getFile());
         String monChemin = location.getFile();
 
+
         // GET PARAMETERS
         String prenom = null;
         String nom = null;

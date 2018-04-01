@@ -25,7 +25,7 @@ public class AjouterContactServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     public static final int TAILLE_TAMPON = 10240;
-    public static final String CHEMIN_FICHIERS = "/Users/greni/Documents/GitHub/codeSiteWhei/src/main/webapp/img/";
+    public static final String CHEMIN_FICHIERS = "/app/src/main/webapp/img/";
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

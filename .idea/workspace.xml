@@ -10,13 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d749e97a-5914-4012-83c2-a0fa98ec7e04" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" afterPath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/sitewebwhei-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/heroku/app/target/sitewebwhei-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/AdresseDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/AdresseDaoTestCase.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/EtudiantDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/EtudiantDaoTestCase.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/MembreDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/MembreDaoTestCase.txt" />
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AjouterContactServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AjouterContactServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="-2730">
+              <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -88,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AjouterMembreServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AjouterMembreServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="250">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -214,8 +215,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireAdresse.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireContact.html" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" />
       </list>
     </option>
   </component>
@@ -274,8 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -423,6 +422,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -783,6 +784,7 @@
       <workItem from="1522159056824" duration="927000" />
       <workItem from="1522597436388" duration="3442000" />
       <workItem from="1522601527651" duration="180000" />
+      <workItem from="1522602330029" duration="404000" />
     </task>
     <servers />
   </component>
@@ -819,7 +821,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152663000" />
+    <option name="totallyTimeSpent" value="153067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,10 +834,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -848,7 +850,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23945946" sideWeight="0.47619048" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24378379" sideWeight="0.47619048" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2064865" sideWeight="0.52380955" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -861,7 +863,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1226,18 +1227,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <state relative-caret-position="-2730">
+          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
           <folding />
         </state>
       </provider>
