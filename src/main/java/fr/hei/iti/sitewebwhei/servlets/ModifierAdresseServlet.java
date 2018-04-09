@@ -33,7 +33,7 @@ public class ModifierAdresseServlet extends HttpServlet {
             adresse = req.getParameter("adresse");
             horaires = req.getParameter("horaires");
             description = req.getParameter("description");
-            urlImage = "photoDeProfil.jpg";
+            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
         }
 
         catch (NumberFormatException ignored) {
@@ -49,7 +49,7 @@ public class ModifierAdresseServlet extends HttpServlet {
         catch (IllegalArgumentException e) {
             String errorMessage = e.getMessage();
             req.getSession().setAttribute("errorMessage", errorMessage);
-            resp.sendRedirect("ModifierAdresse");
+            resp.sendRedirect("ModifierAdresse?id="+adresseId);
         }
 
     }

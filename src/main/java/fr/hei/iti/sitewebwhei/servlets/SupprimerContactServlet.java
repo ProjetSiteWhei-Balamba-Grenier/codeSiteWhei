@@ -38,7 +38,7 @@ public class SupprimerContactServlet extends HttpServlet {
         catch (IllegalArgumentException e) {
             String errorMessage = e.getMessage();
             req.getSession().setAttribute("errorMessage", errorMessage);
-            resp.sendRedirect("SupprimerContact");
+            resp.sendRedirect("ModifierContact?id="+moyenDeContactId);
         }
     }
 }

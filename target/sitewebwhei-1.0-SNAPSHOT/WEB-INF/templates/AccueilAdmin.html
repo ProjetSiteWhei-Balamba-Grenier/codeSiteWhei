@@ -23,7 +23,7 @@
             <section th:each="membre : ${membreList}">
                 <section th:unless="${membre.poste}=='Encadrant'" class="Membre">
                     <a th:href="${'ModifierMembre?id='+membre.id}">
-                        <img th:src="${'/img/' + membre.urlImage}">
+                        <img th:src="${membre.urlImage}">
                         <section th:text="${membre.prenom+' '+membre.nom}"></section>
                         <section th:text="${membre.poste}"></section>
                         <section th:text="${membre.description}"></section>
@@ -38,7 +38,7 @@
             <section th:each="membre : ${membreList}">
                 <section th:if="${membre.poste}=='Encadrant'" class="Membre">
                     <a th:href="${'ModifierMembre?id='+membre.id}">
-                        <img th:src="${'/img/' + membre.urlImage}">
+                        <img th:src="${membre.urlImage}">
                         <section th:text="${membre.prenom+' '+membre.nom}"></section>
                         <section th:text="${membre.description}"></section>
                     </a>

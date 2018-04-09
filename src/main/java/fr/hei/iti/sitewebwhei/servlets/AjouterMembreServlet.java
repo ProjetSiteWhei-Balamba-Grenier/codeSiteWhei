@@ -34,7 +34,7 @@ public class AjouterMembreServlet extends HttpServlet {
             nom = req.getParameter("nom");
             poste = req.getParameter("poste");
             description = req.getParameter("description");
-            urlImage = "photoDeProfil.jpg";
+            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
         }
 
         catch (NumberFormatException | DateTimeParseException ignored) {
@@ -55,7 +55,7 @@ public class AjouterMembreServlet extends HttpServlet {
 
             req.getSession().setAttribute("errorMessage", errorMessage);
 
-            resp.sendRedirect("FormulaireMembre");
+            resp.sendRedirect("AjouterMembre");
         }
 
     }

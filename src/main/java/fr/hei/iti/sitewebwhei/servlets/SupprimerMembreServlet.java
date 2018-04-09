@@ -39,7 +39,7 @@ public class SupprimerMembreServlet extends HttpServlet {
         catch (IllegalArgumentException e) {
             String errorMessage = e.getMessage();
             req.getSession().setAttribute("errorMessage", errorMessage);
-            resp.sendRedirect("SupprimerMembre");
+            resp.sendRedirect("ModifierMembre?id="+membreId);
         }
     }
 }

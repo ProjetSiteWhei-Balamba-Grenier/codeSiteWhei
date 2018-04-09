@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="EtudiantDaoTestCase" time="12.512" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="EtudiantDaoTestCase" time="7.111" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -63,9 +63,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="EtudiantDaoTestCase" name="shouldModifierEtudiant" time="2.303"/>
-  <testcase classname="EtudiantDaoTestCase" name="shouldAddEtudiant" time="2.309"/>
-  <testcase classname="EtudiantDaoTestCase" name="ShouldListEtudiant" time="2.427"/>
-  <testcase classname="EtudiantDaoTestCase" name="shouldDeleteEtudiant" time="3.751"/>
-  <testcase classname="EtudiantDaoTestCase" name="shouldGetEtudiant" time="1.722"/>
+  <testcase classname="EtudiantDaoTestCase" name="shouldModifierEtudiant" time="1.517"/>
+  <testcase classname="EtudiantDaoTestCase" name="shouldAddEtudiant" time="1.461"/>
+  <testcase classname="EtudiantDaoTestCase" name="ShouldListEtudiant" time="1.009"/>
+  <testcase classname="EtudiantDaoTestCase" name="shouldDeleteEtudiant" time="1.949"/>
+  <testcase classname="EtudiantDaoTestCase" name="shouldGetEtudiant" time="1.175"/>
 </testsuite>

@@ -39,7 +39,7 @@ public class SupprimerAdresseServlet extends HttpServlet {
         catch (IllegalArgumentException e) {
             String errorMessage = e.getMessage();
             req.getSession().setAttribute("errorMessage", errorMessage);
-            resp.sendRedirect("SupprimerAdresse");
+            resp.sendRedirect("ModifierAdresse?id="+adresseId);
         }
     }
 }

@@ -18,7 +18,7 @@
                 <section class="ElementAdresse">
 
                     <a th:href="${'ModifierAdresse?id='+adresse.id}">
-                        <img th:src="${'/img/'+adresse.urlImage}">
+                        <img th:src="${adresse.urlImage}">
                         <section class="ConteneurParagrapheAdresse">
                             <section class="nomAdresse" th:text="${adresse.nom}"></section>
                             <section class="typeEtAdresse" th:text="${adresse.type + ' - ' + adresse.adresse}"></section>

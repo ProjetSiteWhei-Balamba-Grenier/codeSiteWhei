@@ -13,7 +13,7 @@
 
         <section class="ContenuRechercher">
 
-            <form action="" method="post" enctype="multipart/form-data">
+            <form action="" method="post">
 
                 <input type="hidden" name="adresseId" th:value="${adresseId}">
 
@@ -32,9 +32,10 @@
                 <section class="TitreChampDeSaisie"> Description </section>
                 <input type="textarea" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">
 
-                <input type="hidden" name="MAX_FILE_SIZE" value="10000000" />
+                <!--
                 <section class="TitreChampDeSaisie"> Importer une image </section>
                 <input type="file" name="image" id="image">
+                -->
 
                 <section class="ConteneurBoutonSupprimer">
                     <section class="TitreDescription">

@@ -19,7 +19,7 @@
 
                     <section th:if="${moyenDeContact.nom}=='Liste de diffusion SMS'">
                         <a href="FormulaireListeDeDiffusion">
-                            <img th:src="${'img/' + moyenDeContact.urlImage}">
+                            <img th:src="${moyenDeContact.urlImage}">
                             <section class="ConteneurParagrapheAdresse">
                                 <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
                                 <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>
@@ -30,7 +30,7 @@
 
                     <section th:unless="${moyenDeContact.nom}=='Liste de diffusion SMS'">
                         <a th:href="${moyenDeContact.urlPrecision}">
-                            <img th:src="${'img/' + moyenDeContact.urlImage}">
+                            <img th:src="${moyenDeContact.urlImage}">
                             <section class="ConteneurParagrapheAdresse">
                                 <section class="nomAdresse" th:text="${moyenDeContact.nom}"></section>
                                 <section class="typeEtAdresse" th:text="${moyenDeContact.precision}"></section>

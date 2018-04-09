@@ -31,7 +31,7 @@ public class ModifierContactServlet extends HttpServlet {
             precision = req.getParameter("precision");
             urlPrecision = req.getParameter("urlPrecision");
             description = req.getParameter("description");
-            urlImage = "photoDeProfil.jpg";
+            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
         }
 
         catch (NumberFormatException ignored) {
@@ -47,7 +47,7 @@ public class ModifierContactServlet extends HttpServlet {
         catch (IllegalArgumentException e) {
             String errorMessage = e.getMessage();
             req.getSession().setAttribute("errorMessage", errorMessage);
-            resp.sendRedirect("ModifierContact");
+            resp.sendRedirect("ModifierContact?id="+moyenDeContactId);
         }
 
     }
