@@ -1,6 +1,5 @@
 package fr.hei.iti.sitewebwhei.dao;
 
-import fr.hei.iti.sitewebwhei.entities.Etudiant;
 import fr.hei.iti.sitewebwhei.entities.MoyenDeContact;
 
 import java.util.List;

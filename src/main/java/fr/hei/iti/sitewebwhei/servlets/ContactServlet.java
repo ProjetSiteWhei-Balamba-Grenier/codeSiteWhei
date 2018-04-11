@@ -1,9 +1,6 @@
 package fr.hei.iti.sitewebwhei.servlets;
 
-import fr.hei.iti.sitewebwhei.dao.MembreDao;
-import fr.hei.iti.sitewebwhei.entities.Membre;
 import fr.hei.iti.sitewebwhei.entities.MoyenDeContact;
-import fr.hei.iti.sitewebwhei.managers.MembreLibrary;
 import fr.hei.iti.sitewebwhei.managers.MoyenDeContactLibrary;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.WebContext;

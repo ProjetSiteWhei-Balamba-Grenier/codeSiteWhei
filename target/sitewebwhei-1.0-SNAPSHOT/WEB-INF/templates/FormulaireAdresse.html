@@ -13,7 +13,7 @@
 
         <section class="ContenuRechercher">
 
-            <form action="" method="post"> <!--enctype="multipart/form-data"-->
+            <form action="" method="post">
 
                 <input type="hidden" name="adresseId" th:value="${adresseId}">
 
@@ -24,20 +24,18 @@
                 <input type="text" name="type" maxlength="30" class="ChampDeSaisie" th:value="${type}">
 
                 <section class="TitreChampDeSaisie"> Adresse </section>
-                <input type="text" name="adresse" maxlength="30" class="ChampDeSaisie" th:value="${adresse}">
+                <input width="400px" type="text" name="adresse" maxlength="30" class="ChampDeSaisie" th:value="${adresse}">
 
                 <section class="TitreChampDeSaisie"> Horaires </section>
                 <input type="text" name="horaires" maxlength="30" class="ChampDeSaisie" th:value="${horaires}">
 
                 <section class="TitreChampDeSaisie"> Description </section>
-                <input type="textarea" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">
+                <input rows="10" cols="50" type="textarea" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">
 
-                <!--
-                <section class="TitreChampDeSaisie"> Importer une image </section>
-                <input type="file" name="upload">
-                -->
+                <section class="TitreChampDeSaisie"> URL image </section>
+                <input type="text" name="urlImage" maxlength="200" class="ChampDeSaisie" th:value="${urlImage}">
 
-                <section class="ConteneurBoutonSupprimer">
+                <section th:unless="${currentPage}=='ajouter'" class="ConteneurBoutonSupprimer">
                     <section class="TitreDescription">
                         <a th:href="${'SupprimerAdresse?id='+adresseId}">Supprimer l'element</a>
                     </section>

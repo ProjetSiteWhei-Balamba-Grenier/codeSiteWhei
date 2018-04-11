@@ -1,6 +1,5 @@
 package fr.hei.iti.sitewebwhei.servlets;
 
-import fr.hei.iti.sitewebwhei.dao.MoyenDeContactDao;
 import fr.hei.iti.sitewebwhei.entities.MoyenDeContact;
 import fr.hei.iti.sitewebwhei.managers.MoyenDeContactLibrary;
 import org.thymeleaf.TemplateEngine;

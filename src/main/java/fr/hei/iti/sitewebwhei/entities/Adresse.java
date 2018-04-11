@@ -1,7 +1,5 @@
 package fr.hei.iti.sitewebwhei.entities;
 
-import javax.print.DocFlavor;
-
 public class Adresse {
 
     private Integer id;

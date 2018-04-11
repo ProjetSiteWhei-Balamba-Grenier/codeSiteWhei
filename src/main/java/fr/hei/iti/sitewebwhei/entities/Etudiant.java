@@ -1,7 +1,5 @@
 package fr.hei.iti.sitewebwhei.entities;
 
-import java.net.Inet4Address;
-
 public class Etudiant {
 
     private Integer id;

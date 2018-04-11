@@ -1,6 +1,5 @@
 package fr.hei.iti.sitewebwhei.servlets;
 
-import fr.hei.iti.sitewebwhei.entities.Adresse;
 import fr.hei.iti.sitewebwhei.managers.AdresseLibrary;
 
 import javax.servlet.ServletException;

@@ -1,6 +1,5 @@
 package fr.hei.iti.sitewebwhei.servlets;
 
-import fr.hei.iti.sitewebwhei.entities.Membre;
 import fr.hei.iti.sitewebwhei.managers.MembreLibrary;
 
 import javax.servlet.ServletException;

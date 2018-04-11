@@ -34,7 +34,7 @@ public class AjouterAdresseServlet extends HttpServlet {
             adresse = req.getParameter("adresse");
             horaires = req.getParameter("horaires");
             description = req.getParameter("description");
-            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
+            urlImage = req.getParameter("urlImage");
         }
 
         catch (NumberFormatException | DateTimeParseException ignored) {
@@ -63,6 +63,8 @@ public class AjouterAdresseServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         WebContext context = new WebContext(req, resp, req.getServletContext());
+
+        context.setVariable("currentPage", "ajouter");
 
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
         templateResolver.setPrefix("/WEB-INF/templates/");
