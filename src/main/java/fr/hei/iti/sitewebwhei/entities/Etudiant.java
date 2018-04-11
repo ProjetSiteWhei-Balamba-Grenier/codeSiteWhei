@@ -2,10 +2,14 @@ package fr.hei.iti.sitewebwhei.entities;
 
 public class Etudiant {
 
+    // Declaration des parametres de Etudiant
+
     private Integer id;
     private String prenom;
     private String nom;
     private String telephone;
+
+    // Declaration du constructeur de Etudiant
 
     public Etudiant(Integer id, String prenom, String nom, String telephone){
         this.id = id;
@@ -13,6 +17,8 @@ public class Etudiant {
         this.nom = nom;
         this.telephone = telephone;
     }
+
+    // Declaration des getters et setters de Etudiant
 
     public Integer getId() {return id;}
 

@@ -16,7 +16,9 @@ public class AuthentificationFiltre  implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 
         HttpServletRequest httpRequest = (HttpServletRequest) request;
+        // Recuperation de la variable utilisateurConnecte
         String identifiant = (String) httpRequest.getSession().getAttribute("utilisateurConnecte");
+        // Si l'utilisateur n'est pas connecte, il est rediriger vers le portail de connexion
         if(identifiant == null || "".equals(identifiant)) {
             System.out.println("Il faut être connecté pour accéder à cette page !");
             HttpServletResponse httpResponse = (HttpServletResponse) response;

@@ -22,18 +22,25 @@ public class AccueilServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
+        // Recuperation de la liste des membres
         List<Membre> listOfMembre = MembreLibrary.getInstance().listMembre();
+        // Ajout de cette liste au context
         context.setVariable("membreList", listOfMembre);
 
+        // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+        // Ajout d'un prefix
         templateResolver.setPrefix("/WEB-INF/templates/");
+        // Ajout d'un suffix
         templateResolver.setSuffix(".html");
 
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Execution du templateEngine avec le fichier Accueil
         templateEngine.process("Accueil", context, resp.getWriter());
     }
 }

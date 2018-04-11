@@ -8,14 +8,17 @@ import java.util.List;
 
 public class AdresseLibrary {
 
+    // Creation d'un objet AdresseDao
     private AdresseDao adresseDao = new AdresseDaoImpl();
 
     private static class AdresseLibraryHolder {
         private final static AdresseLibrary instance = new AdresseLibrary();
     }
 
+    // Creation d'une fonction retournant une instance de AdresseLibrary
     public static AdresseLibrary getInstance(){return AdresseLibraryHolder.instance;}
 
+    // Declaration du constructeur de AdresseLibrary
     private AdresseLibrary(){}
 
     public List<Adresse> listAdresse() {return adresseDao.listAdresse();}
@@ -24,6 +27,7 @@ public class AdresseLibrary {
 
     public void modifierAdresse(Adresse adresse) {
 
+        // Verification des informations saisies
         if (adresse == null) {
             throw new IllegalArgumentException("L'adresse n'existe pas.");
         }
@@ -55,6 +59,7 @@ public class AdresseLibrary {
 
     public Adresse addAdresse(Adresse adresse) {
 
+        // Verification des informations saisies
         if (adresse == null) {
             throw new IllegalArgumentException("L'adresse n'existe pas.");
         }

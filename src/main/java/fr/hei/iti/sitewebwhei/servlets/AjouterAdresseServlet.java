@@ -20,7 +20,7 @@ public class AjouterAdresseServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        // GET PARAMETERS
+        // Initialisation des parametres
         String nom = null;
         String type = null;
         String adresse = null;
@@ -28,6 +28,7 @@ public class AjouterAdresseServlet extends HttpServlet {
         String description = null;
         String urlImage = null;
 
+        // Recuperation des parametres
         try {
             nom = req.getParameter("nom");
             type = req.getParameter("type");
@@ -40,13 +41,14 @@ public class AjouterAdresseServlet extends HttpServlet {
         catch (NumberFormatException | DateTimeParseException ignored) {
         }
 
-        // CREATE ADRESSE
+        // Creation d'une adresse avec ces parametres
         Adresse newAdresse = new Adresse(null, nom, type, adresse, horaires, description, urlImage);
 
+        // Ajout de cette adresse a la base de donnees
         try {
             Adresse createdAdresse = AdresseLibrary.getInstance().addAdresse(newAdresse);
 
-            // REDIRECT TO DETAIL FILM
+            // Redirection vers AdresseAdmin
             resp.sendRedirect(String.format("AdresseAdmin"));
         }
 
@@ -62,18 +64,23 @@ public class AjouterAdresseServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
         context.setVariable("currentPage", "ajouter");
 
+        // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+        // Ajout d'un prefix
         templateResolver.setPrefix("/WEB-INF/templates/");
+        // Ajout d'un suffix
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
 
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Execution du templateEngine avec le fichier FormulaireAdresse
         templateEngine.process("FormulaireAdresse", context, resp.getWriter());
 
     }

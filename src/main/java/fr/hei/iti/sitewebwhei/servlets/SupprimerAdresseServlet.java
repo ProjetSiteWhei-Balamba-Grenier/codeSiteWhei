@@ -20,18 +20,21 @@ public class SupprimerAdresseServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Initialisation du parametre
         Integer adresseId = null;
 
+        // Recuperation du parametre
         try {
             adresseId = Integer.parseInt(req.getParameter("id"));
-
         }
 
         catch (NumberFormatException ignored) {
         }
 
+        // Suppression de l'adresse grace a l'id
         try {
             AdresseLibrary.getInstance().deleteAdresse(adresseId);
+            // Redirection vers AdresseAdmin
             resp.sendRedirect("AdresseAdmin");
         }
 

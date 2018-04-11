@@ -2,12 +2,16 @@ package fr.hei.iti.sitewebwhei.entities;
 
 public class MoyenDeContact {
 
+    // Declaration des paramettres de MoyenDeContact
+
     private Integer id;
     private String nom;
     private String precision;
     private String urlPrecision;
     private String description;
     private String urlImage;
+
+    // Declaration du constructeur de MoyenDeContact
 
     public MoyenDeContact(Integer id, String nom, String precision, String urlPrecision, String description, String urlImage){
         this.id = id;
@@ -17,6 +21,8 @@ public class MoyenDeContact {
         this.description = description;
         this.urlImage = urlImage;
     }
+
+    // Declaration des getters et setters de MoyenDeContact
 
     public Integer getId() {
         return id;

@@ -8,20 +8,24 @@ import java.util.List;
 
 public class EtudiantLibrary {
 
+    // Creation d'un objet EtudiantDao
     private EtudiantDao etudiantDao = new EtudiantDaoImpl();
 
     private static class EtudiantLibraryHolder {
         private final static EtudiantLibrary instance = new EtudiantLibrary();
     }
 
+    // Creation d'une fonction retournant une instance de EtudiantLibrary
     public static EtudiantLibrary getInstance(){return EtudiantLibraryHolder.instance;}
 
+    // Declaration du constructeur de EtudiantLibrary
     private EtudiantLibrary(){}
 
     public List<Etudiant> listEtudiant() {return etudiantDao.listEtudiant();}
 
     public Etudiant addEtudiant(Etudiant etudiant) {
 
+        // Verification des informations saisies
         if (etudiant == null) {
             throw new IllegalArgumentException("L'etudiant n'existe pas.");
         }
@@ -44,6 +48,7 @@ public class EtudiantLibrary {
 
     public void modifierEtudiant(Etudiant etudiant) {
 
+        // Verification des informations saisies
         if (etudiant == null) {
             throw new IllegalArgumentException("L'etudiant n'existe pas.");
         }

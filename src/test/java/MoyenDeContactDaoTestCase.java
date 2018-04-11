@@ -19,9 +19,12 @@ public class MoyenDeContactDaoTestCase {
 
     @Before
     public void initDb() throws Exception {
+        // Connexion a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
+            // Initialisation de la table moyen_de_contact
             stmt.executeUpdate("DELETE FROM moyen_de_contact");
+            // Insertion de deux moyens de contact
             stmt.executeUpdate(
                     "INSERT INTO `moyen_de_contact`(`moyen_de_contact_id`,`nom`, `precision`, `url_precision`, description, url_image) "
                             + "VALUES (1, 'monNom1', 'maPrecision1', 'monUrlPrecision1', 'maDescription1', 'monUrl1')");
@@ -33,19 +36,19 @@ public class MoyenDeContactDaoTestCase {
 
     @Test
     public void ShouldListMoyenDeContact(){
-        // WHEN
+        // Test de la fonction
         List<MoyenDeContact> moyenDeContact = moyenDeContactDao.listMoyenDeContact();
-        // THEN
+        // Verification du resultat
         assertThat(moyenDeContact).hasSize(2);
     }
 
     @Test
     public void shouldAddMoyenDeContact() throws Exception {
-        // GIVEN
+        // Creation d'un moyen de contact
         MoyenDeContact newMoyenDeContact = new MoyenDeContact(null, "monNom", "maPrecision", "monUrlPrecision","maDescription", "monUrl");
-        // WHEN
+        // Test de a fonction
         MoyenDeContact createdMoyenDeContact = moyenDeContactDao.addMoyenDeContact(newMoyenDeContact);
-        // THEN
+        // Verification que le moyen de contact a bien ete cree
         assertThat(createdMoyenDeContact).isNotNull();
         assertThat(createdMoyenDeContact.getId()).isNotNull();
         assertThat(createdMoyenDeContact.getId()).isGreaterThan(0);
@@ -55,6 +58,7 @@ public class MoyenDeContactDaoTestCase {
         assertThat(createdMoyenDeContact.getDescription()).isEqualTo("maDescription");
         assertThat(createdMoyenDeContact.getUrlImage()).isEqualTo("monUrl");
 
+        // Verification que le moyen de contact a bien ete ajoute a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM moyen_de_contact WHERE nom = 'monNom'")) {
@@ -73,8 +77,10 @@ public class MoyenDeContactDaoTestCase {
 
     @Test
     public void shouldDeleteMoyenDeContact() throws Exception {
+        // Test de la fonction
         moyenDeContactDao.deleteMoyenDeContact(1);
 
+        // Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM moyen_de_contact WHERE moyen_de_contact_id=?")) {
             statement.setInt(1, 1);
@@ -86,9 +92,12 @@ public class MoyenDeContactDaoTestCase {
 
     @Test
     public void shouldModifierMoyenDeContact() throws Exception{
+        // Creation d'un moyen de contact
         MoyenDeContact moyenDeContact = new MoyenDeContact(1, "monNom", "maPrecision", "monUrlPrecision", "maDescription", "monUrl");
+        // Test de la fonction
         moyenDeContactDao.modifierMoyenDeContact(moyenDeContact);
 
+        // Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM moyen_de_contact WHERE moyen_de_contact_id = '1';")) {
@@ -108,9 +117,9 @@ public class MoyenDeContactDaoTestCase {
 
     @Test
     public void shouldGetMoyenDeContact() {
-        // WHEN
+        // Test de la fonction
         MoyenDeContact moyenDeContact = moyenDeContactDao.getMoyenDeContact(1);
-        // THEN
+        // Verification du resultat dans la base donnees
         assertThat(moyenDeContact).isNotNull();
         assertThat(moyenDeContact.getId()).isEqualTo(1);
         assertThat(moyenDeContact.getNom()).isEqualTo("monNom1");

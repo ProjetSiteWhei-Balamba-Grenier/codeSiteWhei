@@ -25,13 +25,14 @@ public class AjouterContactServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        // GET PARAMETERS
+        // Initialisation des parametres
         String nom = null;
         String precision = null;
         String urlPrecision = null;
         String description = null;
         String urlImage = null;
 
+        // Recuperation des parametres
         try {
             nom = req.getParameter("nom");
             precision = req.getParameter("precision");
@@ -43,13 +44,14 @@ public class AjouterContactServlet extends HttpServlet {
         catch (NumberFormatException | DateTimeParseException ignored) {
         }
 
-        // CREATE FILM
+        // Creation d'un moyen de contact avec ces parametres
         MoyenDeContact newMoyenDeContact = new MoyenDeContact(null, nom, precision, urlPrecision, description, urlImage);
 
+        // Ajout de ce moyen de contact a la base de donnees
         try {
             MoyenDeContact createdMoyenDeContact = MoyenDeContactLibrary.getInstance().addMoyenDeContact(newMoyenDeContact);
 
-            // REDIRECT TO DETAIL FILM
+            // Redirection vers ContactAdmin
             resp.sendRedirect(String.format("ContactAdmin"));
         }
 
@@ -64,16 +66,21 @@ public class AjouterContactServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
+        // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+        // Ajout d'un prefix
         templateResolver.setPrefix("/WEB-INF/templates/");
+        // Ajout d'un suffix
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
 
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Execution du templateEngine avec le fichier FormulaireContact
         templateEngine.process("FormulaireContact", context, resp.getWriter());
 
     }

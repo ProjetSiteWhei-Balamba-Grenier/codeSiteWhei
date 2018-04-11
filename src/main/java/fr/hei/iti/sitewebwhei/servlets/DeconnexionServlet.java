@@ -12,7 +12,10 @@ public class DeconnexionServlet extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        // Suppression de la variable utilisateurConnecte
         req.getSession().removeAttribute("utilisateurConnecte");
+        // Redirection vers le portail de connexion
         resp.sendRedirect("/PortailAdmin");
     }
 }

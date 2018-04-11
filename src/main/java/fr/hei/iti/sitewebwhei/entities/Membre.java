@@ -2,12 +2,16 @@ package fr.hei.iti.sitewebwhei.entities;
 
 public class Membre {
 
+    // Declaration des paramettres de Membre
+
     private Integer id;
     private String prenom;
     private String nom;
     private String poste;
     private String description;
     private String urlImage;
+
+    // Declaration du constructeur de Membre
 
     public Membre (Integer id, String prenom, String nom, String poste, String description, String urlImage){
         this.id = id;
@@ -17,6 +21,8 @@ public class Membre {
         this.description = description;
         this.urlImage = urlImage;
     }
+
+    // Declaration des getters et setters de Membre
 
     public Integer getId() {
         return id;

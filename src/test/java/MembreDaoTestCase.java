@@ -19,9 +19,12 @@ public class MembreDaoTestCase {
 
     @Before
     public void initDb() throws Exception {
+        // Connexion a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
+            // Initialisation de la table membre
             stmt.executeUpdate("DELETE FROM membre");
+            // Insertion de deux membres
             stmt.executeUpdate(
                     "INSERT INTO `membre`(`membre_id`,`prenom`, nom, poste, description, url_image) "
                             + "VALUES (1, 'monPrenom1', 'monNom1', 'monPoste1', 'maDescription1', 'monUrl1')");
@@ -33,19 +36,19 @@ public class MembreDaoTestCase {
 
     @Test
     public void ShouldListMembre(){
-        // WHEN
+        // Test de la fonction
         List<Membre> membres = membreDao.listMembre();
-        // THEN
+        // Verification du resultat
         assertThat(membres).hasSize(2);
     }
 
     @Test
     public void shouldAddMembre() throws Exception {
-        // GIVEN
+        // Creation d'un membre
         Membre newMembre = new Membre(null, "monPrenom", "monNom", "monPoste", "maDescription", "monUrl");
-        // WHEN
+        // Test de la fonction
         Membre createdMembre = membreDao.addMembre(newMembre);
-        // THEN
+        // Verification que le membre a bien ete creee
         assertThat(createdMembre).isNotNull();
         assertThat(createdMembre.getId()).isNotNull();
         assertThat(createdMembre.getId()).isGreaterThan(0);
@@ -55,6 +58,7 @@ public class MembreDaoTestCase {
         assertThat(createdMembre.getDescription()).isEqualTo("maDescription");
         assertThat(createdMembre.getUrlImage()).isEqualTo("monUrl");
 
+        // Verification que le membre a bien ete ajoute a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM membre WHERE prenom = 'monPrenom'")) {
@@ -73,8 +77,10 @@ public class MembreDaoTestCase {
 
     @Test
     public void shouldDeleteMembre() throws Exception {
+        // Test de la fonction
         membreDao.deleteMembre(1);
 
+        // Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM membre WHERE membre_id=?")) {
             statement.setInt(1, 1);
@@ -86,9 +92,12 @@ public class MembreDaoTestCase {
 
     @Test
     public void shouldModifierMembre() throws Exception{
+        // Creation d'un membre
         Membre membre = new Membre(1, "monPrenom", "monNom", "monPoste", "maDescription", "monUrl");
+        // Test de la fonction
         membreDao.modifierMembre(membre);
 
+        // Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM membre WHERE membre_id = '1';")) {
@@ -108,9 +117,9 @@ public class MembreDaoTestCase {
 
     @Test
     public void shouldGetMembre() {
-        // WHEN
+        // Test de la fonction
         Membre membre = membreDao.getMembre(1);
-        // THEN
+        // Verification du resultat
         assertThat(membre).isNotNull();
         assertThat(membre.getId()).isEqualTo(1);
         assertThat(membre.getPrenom()).isEqualTo("monPrenom1");

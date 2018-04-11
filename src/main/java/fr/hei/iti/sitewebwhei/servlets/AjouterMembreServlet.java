@@ -22,13 +22,14 @@ public class AjouterMembreServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        // GET PARAMETERS
+        // Initialisation des parametres
         String prenom = null;
         String nom = null;
         String poste = null;
         String description = null;
         String urlImage = null;
 
+        // Recuperation des parametres
         try {
             prenom = req.getParameter("prenom");
             nom = req.getParameter("nom");
@@ -40,13 +41,14 @@ public class AjouterMembreServlet extends HttpServlet {
         catch (NumberFormatException | DateTimeParseException ignored) {
         }
 
-        // CREATE FILM
+        // Creation d'un membre avec ces parametres
         Membre newMembre = new Membre(null, prenom, nom, poste, description, urlImage);
 
+        // Ajout de ce membre a la base de donnees
         try {
             Membre createdMembre = MembreLibrary.getInstance().addMembre(newMembre);
 
-            // REDIRECT TO DETAIL FILM
+            // Redirection vers AccueilAdmin
             resp.sendRedirect(String.format("AccueilAdmin"));
         }
 
@@ -62,16 +64,21 @@ public class AjouterMembreServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
+        // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+        // Ajout d'un prefix
         templateResolver.setPrefix("/WEB-INF/templates/");
+        // Ajout d'un suffix
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
 
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Execution du templateEngine avec le fichier FormulaireMembre
         templateEngine.process("FormulaireMembre", context, resp.getWriter());
 
     }

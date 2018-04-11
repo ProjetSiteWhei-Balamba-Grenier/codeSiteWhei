@@ -18,6 +18,7 @@ public class ModifierContactServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Initialisation des parametres
         Integer moyenDeContactId = null;
         String nom = null;
         String precision = null;
@@ -25,6 +26,7 @@ public class ModifierContactServlet extends HttpServlet {
         String description = null;
         String urlImage = null;
 
+        // Recuperation des parametres
         try {
             moyenDeContactId = Integer.parseInt(req.getParameter("moyenDeContactId"));
             nom = req.getParameter("nom");
@@ -37,10 +39,13 @@ public class ModifierContactServlet extends HttpServlet {
         catch (NumberFormatException ignored) {
         }
 
+        // Creation d'un MoyenDeContact avec ces parametres
         MoyenDeContact moyenDeContactModifie = new MoyenDeContact(moyenDeContactId, nom, precision, urlPrecision, description, urlImage);
 
+        // Ajout de ce moyen de contact a la base de donnees
         try {
             MoyenDeContactLibrary.getInstance().modifierMoyenDeContact(moyenDeContactModifie);
+            // Redirection vers ContactAdmin
             resp.sendRedirect(String.format("ContactAdmin"));
         }
 
@@ -54,11 +59,15 @@ public class ModifierContactServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Recuperation de l'id du moyen de contact
         Integer moyenDeContactId = Integer.parseInt(req.getParameter("id"));
+        // Recuperation du moyen de contact grace a l'id
         MoyenDeContact moyenDeContact = MoyenDeContactLibrary.getInstance().getMoyenDeContact(moyenDeContactId);
 
+        // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
+        // Ajout des parametres du moyen de contact au context
         context.setVariable("moyenDeContactId", moyenDeContactId);
         context.setVariable("nom", moyenDeContact.getNom());
         context.setVariable("precision", moyenDeContact.getPrecision());
@@ -66,13 +75,17 @@ public class ModifierContactServlet extends HttpServlet {
         context.setVariable("description", moyenDeContact.getDescription());
         context.setVariable("urlImage", moyenDeContact.getUrlImage());
 
+        // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+        // Ajout d'un prefix
         templateResolver.setPrefix("/WEB-INF/templates/");
+        // Ajout d'un suffix
         templateResolver.setSuffix(".html");
 
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Execution du templateEngine avec le fichier AccueilAdmin
         templateEngine.process("FormulaireContact", context, resp.getWriter());
     }
 }

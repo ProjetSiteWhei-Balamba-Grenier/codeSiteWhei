@@ -8,14 +8,17 @@ import java.util.List;
 
 public class MoyenDeContactLibrary {
 
+    // Creation d'un objet MoyenDeContactDao
     private MoyenDeContactDao moyenDeContactDao = new MoyenDeContactDaoImpl();
 
     private static class MoyenDeContactLibraryHolder {
         private final static MoyenDeContactLibrary instance = new MoyenDeContactLibrary();
     }
 
+    // Creation d'une fonction retournant une instance de MoyenDeContactLibrary
     public static MoyenDeContactLibrary getInstance(){return MoyenDeContactLibraryHolder.instance;}
 
+    // Declaration du constructeur de MoyenDeContactLibrary
     private MoyenDeContactLibrary(){}
 
     public List<MoyenDeContact> listMoyenDeContact() {return moyenDeContactDao.listMoyenDeContact();}
@@ -24,6 +27,7 @@ public class MoyenDeContactLibrary {
 
     public void modifierMoyenDeContact(MoyenDeContact moyenDeContact) {
 
+        // Verification des informations saisies
         if (moyenDeContact == null) {
             throw new IllegalArgumentException("Le moyen de contact n'existe pas.");
         }
@@ -53,6 +57,7 @@ public class MoyenDeContactLibrary {
 
     public MoyenDeContact addMoyenDeContact(MoyenDeContact moyenDeContact) {
 
+        // Verification des informations saisies
         if (moyenDeContact == null) {
             throw new IllegalArgumentException("Le moyen de contact n'existe pas.");
         }

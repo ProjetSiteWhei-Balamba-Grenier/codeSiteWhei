@@ -20,18 +20,21 @@ public class SupprimerContactServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Initialisation du parametre
         Integer moyenDeContactId = null;
 
+        // Recuperation du parametre
         try {
             moyenDeContactId = Integer.parseInt(req.getParameter("id"));
-
         }
 
         catch (NumberFormatException ignored) {
         }
 
+        // Suppression du moyen de contact grace a l'id
         try {
             MoyenDeContactLibrary.getInstance().deleteMoyenDeContact(moyenDeContactId);
+            // Redirection vers ContactAdmin
             resp.sendRedirect("ContactAdmin");
         }
 

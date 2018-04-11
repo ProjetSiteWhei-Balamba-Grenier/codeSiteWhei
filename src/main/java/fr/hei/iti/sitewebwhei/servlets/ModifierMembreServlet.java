@@ -18,6 +18,7 @@ import java.util.List;
 public class ModifierMembreServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Initialisation des parametres
         Integer membreId = null;
         String prenom = null;
         String nom = null;
@@ -25,6 +26,7 @@ public class ModifierMembreServlet extends HttpServlet {
         String description = null;
         String urlImage = null;
 
+        // Recuperation des parametres
         try {
             membreId = Integer.parseInt(req.getParameter("membreId"));
             prenom = req.getParameter("prenom");
@@ -37,10 +39,13 @@ public class ModifierMembreServlet extends HttpServlet {
         catch (NumberFormatException ignored) {
         }
 
+        // Creation d'un membre avec ces parametres
         Membre membreModifie = new Membre(membreId, prenom, nom, poste, description, urlImage);
 
+        // Ajout de ce membre a la base de donnees
         try {
             MembreLibrary.getInstance().modifierMembre(membreModifie);
+            // Redirection vers AccueilAdmin
             resp.sendRedirect(String.format("AccueilAdmin"));
         }
 
@@ -54,11 +59,15 @@ public class ModifierMembreServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Recuperation de l'id du membre
         Integer membreId = Integer.parseInt(req.getParameter("id"));
+        // Recuperation du membre grace a l'id
         Membre membre = MembreLibrary.getInstance().getMembre(membreId);
 
+        // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
+        // Ajout des parametres du memebre au context
         context.setVariable("membreId", membreId);
         context.setVariable("prenom", membre.getPrenom());
         context.setVariable("nom", membre.getNom());
@@ -66,13 +75,17 @@ public class ModifierMembreServlet extends HttpServlet {
         context.setVariable("description", membre.getDescription());
         context.setVariable("urlImage", membre.getUrlImage());
 
+        // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+        // Ajout d'un prefix
         templateResolver.setPrefix("/WEB-INF/templates/");
+        // Ajout d'un suffix
         templateResolver.setSuffix(".html");
 
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Execution du templateEngine avec le fichier FormulaireMembre
         templateEngine.process("FormulaireMembre", context, resp.getWriter());
     }
 }

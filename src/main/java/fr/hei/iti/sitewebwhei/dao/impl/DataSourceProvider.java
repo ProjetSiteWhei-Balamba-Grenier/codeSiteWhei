@@ -10,6 +10,7 @@ public class DataSourceProvider {
 
     public static DataSource getDataSource() {
         if (dataSource == null) {
+            // Declaration des parametres de connexion a la base de donnees
             dataSource = new MysqlDataSource();
             dataSource.setServerName("wyqk6x041tfxg39e.chr7pe7iynqr.eu-west-1.rds.amazonaws.com");
             dataSource.setPort(3306);

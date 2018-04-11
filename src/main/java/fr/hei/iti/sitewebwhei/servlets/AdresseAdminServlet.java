@@ -23,18 +23,25 @@ public class AdresseAdminServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
 
+        // Recuperation de la liste des adresses
         List<Adresse> listOfAdresse = AdresseLibrary.getInstance().listAdresse();
+        // Ajout de cette liste au context
         context.setVariable("adresseList", listOfAdresse);
 
+        // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());
+        // Ajout d'un prefix
         templateResolver.setPrefix("/WEB-INF/templates/");
+        // Ajout d'un suffix
         templateResolver.setSuffix(".html");
 
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
+        // Execution du templateEngine avec le fichier AdresseAdmin
         templateEngine.process("AdresseAdmin", context, resp.getWriter());
     }
 }

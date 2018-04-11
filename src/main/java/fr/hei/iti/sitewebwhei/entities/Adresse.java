@@ -2,6 +2,8 @@ package fr.hei.iti.sitewebwhei.entities;
 
 public class Adresse {
 
+    // Declaration des parametres de Adresse
+
     private Integer id;
     private String nom;
     private String type;
@@ -9,6 +11,8 @@ public class Adresse {
     private String horaires;
     private String description;
     private String urlImage;
+
+    // Declaration du constructeur de Adresse
 
     public Adresse(Integer id, String nom, String type, String adresse, String horaires, String description, String urlImage){
         this.id = id;
@@ -19,6 +23,8 @@ public class Adresse {
         this.description = description;
         this.urlImage = urlImage;
     }
+
+    // Declaration des getters et setters
 
     public Integer getId() {
         return id;

@@ -6,6 +6,8 @@ import java.util.List;
 
 public interface MoyenDeContactDao {
 
+    // Declaration des fonctions de MoyenDeContact
+
     public List<MoyenDeContact> listMoyenDeContact();
     public MoyenDeContact addMoyenDeContact(MoyenDeContact moyenDeContact);
     public void modifierMoyenDeContact(MoyenDeContact moyenDeContact);

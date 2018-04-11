@@ -6,6 +6,8 @@ import java.util.List;
 
 public interface AdresseDao {
 
+    // Declaration des fonctions de Adresse
+
     public List<Adresse> listAdresse();
     public Adresse addAdresse(Adresse adresse);
     public void deleteAdresse(Integer id);

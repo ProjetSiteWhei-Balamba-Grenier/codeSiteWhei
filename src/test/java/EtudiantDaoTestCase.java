@@ -19,9 +19,12 @@ public class EtudiantDaoTestCase {
 
     @Before
     public void initDb() throws Exception {
+        // Connexion a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
+            // Initialisation de la table etudiant
             stmt.executeUpdate("DELETE FROM etudiant");
+            // Insertion de deux etudiants
             stmt.executeUpdate(
                     "INSERT INTO `etudiant`(`etudiant_id`,`prenom`, nom, telephone) "
                             + "VALUES (1, 'monPrenom1', 'monNom1', '0600000001')");
@@ -33,19 +36,19 @@ public class EtudiantDaoTestCase {
 
     @Test
     public void ShouldListEtudiant(){
-        // WHEN
+        // Test de la fonction
         List<Etudiant> etudiants = etudiantDao.listEtudiant();
-        // THEN
+        // Verification du resultat
         assertThat(etudiants).hasSize(2);
     }
 
     @Test
     public void shouldAddEtudiant() throws Exception {
-        // GIVEN
+        // Creation d'un etudiant
         Etudiant newEtudiant = new Etudiant(null, "monPrenom", "monNom", "0600000000");
-        // WHEN
+        // Test de la fonction
         Etudiant createdEtudiant = etudiantDao.addEtudiant(newEtudiant);
-        // THEN
+        // Verification que l'etudiant a bien ete cree
         assertThat(createdEtudiant).isNotNull();
         assertThat(createdEtudiant.getId()).isNotNull();
         assertThat(createdEtudiant.getId()).isGreaterThan(0);
@@ -53,6 +56,7 @@ public class EtudiantDaoTestCase {
         assertThat(createdEtudiant.getNom()).isEqualTo("monNom");
         assertThat(createdEtudiant.getTelephone()).isEqualTo("0600000000");
 
+        // Verification que l'étudiant a bien ete ajoute a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM etudiant WHERE prenom = 'monPrenom'")) {
@@ -69,8 +73,10 @@ public class EtudiantDaoTestCase {
 
     @Test
     public void shouldDeleteEtudiant() throws Exception {
+        // Test de la fonction
         etudiantDao.deleteEtudiant(1);
 
+        // Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM etudiant WHERE etudiant_id=?")) {
             statement.setInt(1, 1);
@@ -82,9 +88,12 @@ public class EtudiantDaoTestCase {
 
     @Test
     public void shouldModifierEtudiant() throws Exception{
+        // Creation d'un etudiant
         Etudiant etudiant = new Etudiant(1, "monPrenom", "monNom", "0600000000");
+        // Test de la fonction
         etudiantDao.modifierEtudiant(etudiant);
 
+        // Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM etudiant WHERE etudiant_id = '1';")) {
@@ -102,9 +111,9 @@ public class EtudiantDaoTestCase {
 
     @Test
     public void shouldGetEtudiant() {
-        // WHEN
+        // Test de la fonction
         Etudiant etudiant = etudiantDao.getEtudiant(1);
-        // THEN
+        // Verification du resultat
         assertThat(etudiant).isNotNull();
         assertThat(etudiant.getId()).isEqualTo(1);
         assertThat(etudiant.getPrenom()).isEqualTo("monPrenom1");

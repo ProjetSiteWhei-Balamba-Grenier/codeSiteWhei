@@ -6,6 +6,8 @@ import java.util.List;
 
 public interface MembreDao {
 
+    // Declaration des fonctions de Membre
+
     public List<Membre> listMembre();
     public Membre addMembre(Membre membre);
     public void modifierMembre(Membre membre);

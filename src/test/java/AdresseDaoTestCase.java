@@ -19,9 +19,12 @@ public class AdresseDaoTestCase {
 
     @Before
     public void initDb() throws Exception {
+        // Connexion a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
+            // Initialisation de la table adresse
             stmt.executeUpdate("DELETE FROM adresse");
+            // Insertion de deux adresses dans la table
             stmt.executeUpdate(
                     "INSERT INTO `adresse`(`adresse_id`,`nom`, adresse_type, adresse, horaires, description, url_image) "
                             + "VALUES (1, 'monNom1', 'monType1', 'monAdresse1','mesHoraires1', 'maDescription1', 'monUrl1')");
@@ -33,19 +36,19 @@ public class AdresseDaoTestCase {
 
     @Test
     public void ShouldListAdresse(){
-        // WHEN
+        // Test de la fonction
         List<Adresse> adresses = adresseDao.listAdresse();
-        // THEN
+        // Verification du resultat
         assertThat(adresses).hasSize(2);
     }
 
     @Test
     public void shouldAddAdresse() throws Exception {
-        // GIVEN
+        // Creation d'une adresse
         Adresse newAdresse = new Adresse(null, "monNom", "monType", "monAdresse", "mesHoraires", "maDescription", "monUrl");
-        // WHEN
+        // Test de la fonction
         Adresse createdAdresse = adresseDao.addAdresse(newAdresse);
-        // THEN
+        // Verification que l'adresse a bien ete creee
         assertThat(createdAdresse).isNotNull();
         assertThat(createdAdresse.getId()).isNotNull();
         assertThat(createdAdresse.getId()).isGreaterThan(0);
@@ -56,6 +59,7 @@ public class AdresseDaoTestCase {
         assertThat(createdAdresse.getDescription()).isEqualTo("maDescription");
         assertThat(createdAdresse.getUrlImage()).isEqualTo("monUrl");
 
+        // Verification que l'adresse a bien ete ajoutee a la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM adresse WHERE nom = 'monNom'")) {
@@ -75,8 +79,10 @@ public class AdresseDaoTestCase {
 
     @Test
     public void shouldDeleteAdresse() throws Exception {
+        // Test de la fonction
         adresseDao.deleteAdresse(1);
 
+        // Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM adresse WHERE adresse_id=?")) {
             statement.setInt(1, 1);
@@ -88,9 +94,12 @@ public class AdresseDaoTestCase {
 
     @Test
     public void shouldModifierAdresse() throws Exception{
+        // Cration d'une adresse
         Adresse adresse = new Adresse(1, "monNom", "monType", "monAdresse", "mesHoraires", "maDescription", "monUrl");
+        // Test de la fonction
         adresseDao.modifierAdresse(adresse);
 
+        //Verification du resultat dans la base de donnees
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
             try (ResultSet rs = stmt.executeQuery("SELECT * FROM adresse WHERE adresse_id = '1';")) {
@@ -111,9 +120,9 @@ public class AdresseDaoTestCase {
 
     @Test
     public void shouldGetAdresse() {
-        // WHEN
+        // Creation d'une adresse
         Adresse adresse = adresseDao.getAdresse(1);
-        // THEN
+        // Verification du resultat
         assertThat(adresse).isNotNull();
         assertThat(adresse.getId()).isEqualTo(1);
         assertThat(adresse.getNom()).isEqualTo("monNom1");

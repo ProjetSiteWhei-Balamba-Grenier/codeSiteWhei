@@ -20,18 +20,21 @@ public class SupprimerMembreServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // Initialisation du parametre
         Integer membreId = null;
 
+        // Recuperation du parametre
         try {
             membreId = Integer.parseInt(req.getParameter("id"));
-
         }
 
         catch (NumberFormatException ignored) {
         }
 
+        // Suppression du membre grace a l'id
         try {
             MembreLibrary.getInstance().deleteMembre(membreId);
+            // Redirectiion vers AccueilAdmin
             resp.sendRedirect("AccueilAdmin");
         }
 
