@@ -29,7 +29,10 @@
                 <section class="TitreChampDeSaisie"> Description </section>
                 <input type="textarea" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">
 
-                <section class="ConteneurBoutonSupprimer">
+                <section class="TitreChampDeSaisie"> URL image </section>
+                <input type="text" name="urlImage" maxlength="200" class="ChampDeSaisie" th:value="${urlImage}">
+
+                <section th:unless="${currentPage}=='ajouter'" class="ConteneurBoutonSupprimer">
                     <section class="TitreDescription">
                         <a th:href="${'SupprimerMembre?id='+membreId}">Supprimer l'element</a>
                     </section>

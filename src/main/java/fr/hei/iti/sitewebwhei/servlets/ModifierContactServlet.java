@@ -33,7 +33,7 @@ public class ModifierContactServlet extends HttpServlet {
             precision = req.getParameter("precision");
             urlPrecision = req.getParameter("urlPrecision");
             description = req.getParameter("description");
-            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
+            urlImage = req.getParameter("urlImage");
         }
 
         catch (NumberFormatException ignored) {

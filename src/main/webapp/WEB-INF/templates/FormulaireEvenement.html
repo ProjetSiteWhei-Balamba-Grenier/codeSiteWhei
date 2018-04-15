@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style2.css">
+        <title>WHEI</title>
+    </head>
+
+    <body>
+
+        <section th:replace="~{fragments::menuAdmin}"></section>
+
+        <section class="ContenuRechercher">
+
+            <form action="" method="post">
+
+                <input type="hidden" name="evenement_id" th:value="${evenement_id}">
+
+                <section class="TitreChampDeSaisie"> Nom </section>
+                <input type="text" name="nom" maxlength="200" class="ChampDeSaisie" th:value="${nom}">
+
+                <section class="TitreChampDeSaisie"> Adresse </section>
+                <input type="text" name="adresse" maxlength="200" class="ChampDeSaisie" th:value="${adresse}">
+
+                <section class="TitreChampDeSaisie"> Horaires </section>
+                <input type="text" name="horaires" maxlength="200" class="ChampDeSaisie" th:value="${horaires}">
+
+                <section class="TitreChampDeSaisie"> Description </section>
+                <input type="text" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">
+
+                <section class="TitreChampDeSaisie"> URL image </section>
+                <input type="text" name="urlImage" maxlength="200" class="ChampDeSaisie" th:value="${urlImage}">
+
+                <section th:unless="${currentPage}=='ajouter'" class="ConteneurBoutonSupprimer">
+                    <section class="TitreDescription">
+                        <a th:href="${'SupprimerEvenement?id='+evenement_id}">Supprimer l'element</a>
+                    </section>
+                </section>
+
+                <section> <input type="submit" th:value="Valider" class="BoutonRechercher"></section>
+
+            </form>
+
+        </section>
+
+        <section class="basDePage"></section>
+
+    </body>
+
+</html>

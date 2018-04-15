@@ -33,7 +33,7 @@ public class ModifierMembreServlet extends HttpServlet {
             nom = req.getParameter("nom");
             poste = req.getParameter("poste");
             description = req.getParameter("description");
-            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
+            urlImage = req.getParameter("urlImage");
         }
 
         catch (NumberFormatException ignored) {

@@ -35,7 +35,7 @@ public class AjouterMembreServlet extends HttpServlet {
             nom = req.getParameter("nom");
             poste = req.getParameter("poste");
             description = req.getParameter("description");
-            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
+            urlImage = req.getParameter("urlImage");
         }
 
         catch (NumberFormatException | DateTimeParseException ignored) {
@@ -66,6 +66,8 @@ public class AjouterMembreServlet extends HttpServlet {
 
         // Creation d'un context
         WebContext context = new WebContext(req, resp, req.getServletContext());
+
+        context.setVariable("currentPage", "ajouter");
 
         // Creation d'un templateResolver
         ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(req.getServletContext());

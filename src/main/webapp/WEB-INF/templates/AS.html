@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>WHEI</title>
+    </head>
+
+    <body>
+
+        <section th:replace="~{fragments::menu}"></section>
+        <section class="Titre1">AS</section>
+
+        <section class="ConteneurParagraphe">
+            <section class="Paragraphe">DESCRIPTION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</section>
+        </section>
+
+        <section class="ConteneurAdresse">
+
+            <section th:each="association : ${associationList}" th:if="${association.pole}=='AS'">
+
+                <section class="ElementAdresse">
+
+                    <img th:src="${association.urlImage}">
+                    <section class="ConteneurParagrapheAdresse">
+                        <section class="nomAdresse" th:text="${association.nom}"></section>
+                        <section class="typeEtAdresse" th:text="'President : '+${association.nomPresident}"></section>
+                        <section class="typeEtAdresse" th:text="'Facebook : '+${association.nomFb}"></section>
+                        <section class="typeEtAdresse" th:text="'Mail : '+${association.mail}"></section>
+                        <section class="descriptionAdresse" th:text="${association.description}"></section>
+                    </section>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <section class="basDePage"></section>
+
+    </body>
+
+</html>

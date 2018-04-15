@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>WHEI</title>
+    </head>
+
+    <body>
+
+        <section th:replace="~{fragments::menu}"></section>
+
+        <section class="ConteneurAdresse">
+
+            <section th:each="evenement : ${evenementList}">
+
+                    <section class="ElementAdresse">
+
+                        <img th:src="${evenement.urlImage}">
+                        <section class="ConteneurParagrapheAdresse">
+                            <section class="nomAdresse" th:text="${evenement.nom}"></section>
+                            <section class="typeEtAdresse" th:text="${evenement.adresse}"></section>
+                            <section class="typeEtAdresse" th:text="${evenement.horaires}"></section>
+                            <section class="descriptionAdresse" th:text="${evenement.description}"></section>
+                        </section>
+
+                    </section>
+
+            </section>
+
+        </section>
+
+        <section class="basDePage"></section>
+
+    </body>
+
+</html>

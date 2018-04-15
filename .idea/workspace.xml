@@ -10,125 +10,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d749e97a-5914-4012-83c2-a0fa98ec7e04" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/AdresseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/EtudiantDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/MembreDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/MoyenDeContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/impl/DataSourceProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/impl/EtudiantDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/impl/MembreDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/dao/impl/MoyenDeContactDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/entities/Adresse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/entities/Etudiant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/entities/Membre.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/entities/MoyenDeContact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/filters/EncodingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/AdresseLibrary$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/AdresseLibrary$AdresseLibraryHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/AdresseLibrary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary$EtudiantLibraryHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/MembreLibrary$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/MembreLibrary$MembreLibraryHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/MembreLibrary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary$MoyenDeContactLibraryHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AccueilServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AdresseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ContactServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/FormulaireListeDeDiffusionServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/lib/argon2-jvm-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/lib/jna-4.2.1.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/target/sitewebwhei-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/heroku/app/target/sitewebwhei-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/slug.tgz" afterPath="$PROJECT_DIR$/target/heroku/slug.tgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/AssociationDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/EvenementDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AssociationDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/EvenementDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Association.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Evenement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/AssociationLibrary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EvenementLibrary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ASAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ASServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAssociationServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterEvenementServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDAAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDAServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDEAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDEServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDSAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDSServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BESAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BESServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BETAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BETServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/CapsoAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/CapsoServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/CommissionAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/CommissionServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EvenementAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EvenementServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/IntegraleAdminServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/IntegraleServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAssociationServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierEvenementServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAssociationServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerEvenementServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sql/creationTableAsso.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sql/creationTableEvenement.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sql/remplirTableAsso.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sql/remplirTableEvenement.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AS.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ASAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDA.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDAAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDE.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDEAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDS.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDSAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BES.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BESAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BET.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BETAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Capso.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/CapsoAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Commission.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/CommissionAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Evenement.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/EvenementAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireAssociation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireEvenement.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Integrale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/IntegraleAdmin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/DataSourceProvider.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/DataSourceProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/EtudiantDaoImpl.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/EtudiantDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/MembreDaoImpl.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/MembreDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/MoyenDeContactDaoImpl.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/dao/impl/MoyenDeContactDaoImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/Adresse.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/Adresse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/Etudiant.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/Etudiant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/Membre.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/Membre.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/MoyenDeContact.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/entities/MoyenDeContact.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/AdresseLibrary$AdresseLibraryHolder.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/AdresseLibrary$AdresseLibraryHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/AdresseLibrary.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/AdresseLibrary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary$EtudiantLibraryHolder.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary$EtudiantLibraryHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MembreLibrary$MembreLibraryHolder.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MembreLibrary$MembreLibraryHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MembreLibrary.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MembreLibrary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary$MoyenDeContactLibraryHolder.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary$MoyenDeContactLibraryHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AccueilServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AccueilServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AdresseServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AdresseServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ContactServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ContactServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/FormulaireListeDeDiffusionServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/FormulaireListeDeDiffusionServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.class" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/classes/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/AdresseDao.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/AdresseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/EtudiantDao.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/EtudiantDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MembreDao.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MembreDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MoyenDeContactDao.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MoyenDeContactDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/DataSourceProvider.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/DataSourceProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/EtudiantDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/EtudiantDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MembreDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MembreDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MoyenDeContactDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MoyenDeContactDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Adresse.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Adresse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Etudiant.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Etudiant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Membre.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Membre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/MoyenDeContact.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/MoyenDeContact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/AdresseLibrary.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/AdresseLibrary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MembreLibrary.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MembreLibrary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AdresseDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/AdresseDaoTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/EtudiantDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/EtudiantDaoTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MembreDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/MembreDaoTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MoyenDeContactDaoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/MoyenDeContactDaoTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/FormulaireListeDeDiffusionServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/FormulaireListeDeDiffusionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.java" afterPath="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AdresseDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/AdresseDaoTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EtudiantDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/EtudiantDaoTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MembreDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/MembreDaoTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MoyenDeContactDaoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/MoyenDeContactDaoTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireAdresse.html" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireAdresse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireContact.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireContact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireContact.html" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireContact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireListeDeDiffusion.html" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireListeDeDiffusion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireMembre.html" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/WEB-INF/templates/FormulaireMembre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/AdresseDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/AdresseDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/EtudiantDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/EtudiantDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/MembreDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/MembreDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/MoyenDeContactDaoTestCase.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/MoyenDeContactDaoTestCase.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AdresseDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AdresseDaoTestCase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-EtudiantDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-EtudiantDaoTestCase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MembreDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MembreDaoTestCase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MoyenDeContactDaoTestCase.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MoyenDeContactDaoTestCase.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/css/style.css" afterPath="$PROJECT_DIR$/target/sitewebwhei-1.0-SNAPSHOT/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -152,132 +147,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <file leaf-file-name="Integrale.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Integrale.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="100">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="45" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Accueil.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Accueil.html">
+      <file leaf-file-name="BES.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BES.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="20" column="96" lean-forward="false" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="IntegraleAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/IntegraleAdmin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="71">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="AS.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdresseDaoTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AdresseDaoTestCase.java">
+      <file leaf-file-name="BDS.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
-              <folding>
-                <marker date="1523467980065" expanded="true" signature="882:901" ph="DELETE FROM " />
-                <marker date="1523467980065" expanded="true" signature="1014:1238" ph="INSERT INTO `adresse`... " />
-                <marker date="1523467980065" expanded="true" signature="1295:1519" ph="INSERT INTO `adresse`... " />
-                <marker date="1523467980065" expanded="true" signature="3014:3056" ph="SELECT * FRO... adresse" />
-                <marker date="1523467980065" expanded="true" signature="4098:4138" ph="SELECT * FRO... adresse" />
-                <marker date="1523467980065" expanded="true" signature="4878:4922" ph="SELECT * FRO... adresse" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EtudiantDaoTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EtudiantDaoTestCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-              <folding>
-                <marker date="1523468356868" expanded="true" signature="890:910" ph="DELETE FROM " />
-                <marker date="1523468356868" expanded="true" signature="1010:1155" ph="INSERT INTO `etudiant`... " />
-                <marker date="1523468356868" expanded="true" signature="1212:1357" ph="INSERT INTO `etudiant`... " />
-                <marker date="1523468356868" expanded="true" signature="2614:2663" ph="SELECT * FRO... etudiant" />
-                <marker date="1523468356868" expanded="true" signature="3470:3512" ph="SELECT * FRO... etudiant" />
-                <marker date="1523468356868" expanded="true" signature="4221:4267" ph="SELECT * FRO... etudiant" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MembreDaoTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MembreDaoTestCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="121" column="35" lean-forward="false" selection-start-line="121" selection-start-column="35" selection-end-line="121" selection-end-column="35" />
-              <folding>
-                <marker date="1523468639860" expanded="true" signature="874:892" ph="DELETE FROM " />
-                <marker date="1523468639860" expanded="true" signature="990:1179" ph="INSERT INTO `membre`... " />
-                <marker date="1523468639860" expanded="true" signature="1236:1425" ph="INSERT INTO `membre`... " />
-                <marker date="1523468639860" expanded="true" signature="2804:2851" ph="SELECT * FRO... membre" />
-                <marker date="1523468639860" expanded="true" signature="3801:3839" ph="SELECT * FRO... membre" />
-                <marker date="1523468639860" expanded="true" signature="4557:4599" ph="SELECT * FRO... membre" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoyenDeContactDaoTestCase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MoyenDeContactDaoTestCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-              <folding>
-                <marker date="1523468924395" expanded="true" signature="940:968" ph="DELETE FROM " />
-                <marker date="1523468924395" expanded="true" signature="1076:1309" ph="INSERT INTO `moyen_de_contact`... " />
-                <marker date="1523468924395" expanded="true" signature="1366:1599" ph="INSERT INTO `moyen_de_contact`... " />
-                <marker date="1523468924395" expanded="true" signature="3215:3266" ph="SELECT * FRO... moyen_de_contact" />
-                <marker date="1523468924395" expanded="true" signature="4278:4336" ph="SELECT * FRO... moyen_de_contact" />
-                <marker date="1523468924395" expanded="true" signature="5129:5191" ph="SELECT * FRO... moyen_de_contact" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeconnexionServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EcoleServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.java">
+      <file leaf-file-name="BDE.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="66" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BDEAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDEAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BDAAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDAAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ASAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BDSAdmin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDSAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -305,57 +270,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/UploadObjectSingleOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/plugins/S3Plugin.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireAdresse.html" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EvenementAdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/IntegraleAdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDSAdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDSServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/CapsoServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/EvenementDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerEvenementServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Evenement.html" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/EvenementDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireContact.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireListeDeDiffusion.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/sql/creationTableMembre.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/DataSourceProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/EtudiantDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MembreDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MoyenDeContactDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/AdresseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/EtudiantDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MembreDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MoyenDeContactDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Adresse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Etudiant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Membre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/MoyenDeContact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/AdresseLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MembreLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/FormulaireListeDeDiffusionServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierEvenementServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AdresseDaoTestCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EtudiantDaoTestCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MembreDaoTestCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MoyenDeContactDaoTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireEvenement.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/EvenementAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterEvenementServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Challenge.html" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAssociationServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EvenementLibrary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Association.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AssociationDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/AssociationLibrary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAssociationServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ASAdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAssociationServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/sql/creationTableAsso.sql" />
+        <option value="$PROJECT_DIR$/src/main/sql/remplirTableAsso.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AS.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDA.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BES.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BET.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BETAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Capso.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Commission.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireAssociation.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ASAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDAAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BESAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/CapsoAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/CommissionAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Integrale.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDE.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDEAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/IntegraleAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDS.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDSAdmin.html" />
       </list>
     </option>
   </component>
@@ -395,9 +360,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1030" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -414,10 +380,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,7 +420,51 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
+              <item name="managers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sitewebwhei" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeSiteWhei" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeSiteWhei" type="b2602c69:ProjectViewProjectNode" />
@@ -509,12 +515,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/HEI/HEI 4/Dev Web/Corrigés/TP 10 corrigé" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OneDrive_2018-04-14/site whei" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -522,6 +532,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\webapp\css" />
+      <recent name="C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\dao\impl" />
+      <recent name="C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\webapp\WEB-INF\templates" />
+      <recent name="C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\sql" />
+      <recent name="C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\java\fr\hei\iti\sitewebwhei\servlets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\webapp\WEB-INF\templates" />
       <recent name="C:\Users\greni\Documents\GitHub\codeSiteWhei\src\main\webapp\WEB-INF\templates\admin" />
@@ -879,6 +896,10 @@
       <workItem from="1523291860438" duration="4336000" />
       <workItem from="1523436201280" duration="4487000" />
       <workItem from="1523442715967" duration="13877000" />
+      <workItem from="1523537202861" duration="462000" />
+      <workItem from="1523539685316" duration="166000" />
+      <workItem from="1523740462189" duration="7477000" />
+      <workItem from="1523784175448" duration="18622000" />
     </task>
     <servers />
   </component>
@@ -915,7 +936,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188568000" />
+    <option name="totallyTimeSpent" value="215295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -928,10 +949,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -939,12 +960,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33930704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47550777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19729729" sideWeight="0.47619048" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22216216" sideWeight="0.47619048" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2064865" sideWeight="0.52380955" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -957,7 +978,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -975,74 +995,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTableEtudiant.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireContact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTableMembre.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTableMoyenDeContact.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/remplirTableAdresse.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="130" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
-          <folding>
-            <marker date="1523455272052" expanded="true" signature="448:489" ph="SELECT * FRO... adresse" />
-            <marker date="1523455272052" expanded="true" signature="1959:2065" ph="INSERT INTO adresse... " />
-            <marker date="1523455272052" expanded="true" signature="3578:3616" ph="delete from " />
-            <marker date="1523455272052" expanded="true" signature="4037:4161" ph="UPDATE adres... " />
-            <marker date="1523455272052" expanded="true" signature="5190:5230" ph="SELECT * FRO... adresse" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/DataSourceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="625">
+          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/EtudiantDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="121" column="51" lean-forward="false" selection-start-line="121" selection-start-column="51" selection-end-line="121" selection-end-column="51" />
-          <folding>
-            <marker date="1523457327650" expanded="true" signature="455:490" ph="SELECT * FRO... etudiant" />
-            <marker date="1523457327650" expanded="true" signature="1766:1826" ph="INSERT INTO etudiant... " />
-            <marker date="1523457327650" expanded="true" signature="3170:3210" ph="delete from " />
-            <marker date="1523457327650" expanded="true" signature="3634:3710" ph="UPDATE etudi... " />
-            <marker date="1523457327650" expanded="true" signature="4569:4611" ph="SELECT * FRO... etudiant" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MembreDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3025">
-          <caret line="126" column="49" lean-forward="false" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="49" />
+        <state relative-caret-position="-2650">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <marker date="1523457416457" expanded="true" signature="441:480" ph="SELECT * FRO... membre" />
             <marker date="1523457416457" expanded="true" signature="1863:1947" ph="INSERT INTO membre... " />
@@ -1053,318 +1033,277 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/MoyenDeContactDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="135" column="13" lean-forward="true" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
-          <folding>
-            <marker date="1523457535839" expanded="true" signature="498:557" ph="SELECT * FRO... moyen_de_contact" />
-            <marker date="1523457535839" expanded="true" signature="2042:2151" ph="INSERT INTO moyen_de_contact... " />
-            <marker date="1523457535839" expanded="true" signature="3681:3737" ph="delete from " />
-            <marker date="1523457535839" expanded="true" signature="4187:4322" ph="UPDATE moyen... " />
-            <marker date="1523457535839" expanded="true" signature="5366:5424" ph="SELECT * FRO... moyen_de_contact" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/AdresseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/EtudiantDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MembreDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/MoyenDeContactDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Adresse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Etudiant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Membre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/filters/AuthentificationFiltre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/filters/EncodingFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BESServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterEvenementServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MembreLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/AdresseLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="62" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MoyenDeContactLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/MoyenDeContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilAdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AccueilServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+        <state relative-caret-position="350">
+          <caret line="47" column="72" lean-forward="true" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseAdminServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BETAdminServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="43" column="67" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+        <state relative-caret-position="350">
+          <caret line="26" column="87" lean-forward="true" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AdresseServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireEvenement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+        <state relative-caret-position="721">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/EvenementAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EvenementAdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/EvenementDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="104" column="49" lean-forward="false" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1523790238671" expanded="true" signature="353:398" ph="SELECT * FRO... Evenement" />
+            <marker date="1523790238671" expanded="true" signature="1465:1556" ph="INSERT INTO adresse... " />
+            <marker date="1523790238671" expanded="true" signature="2710:2752" ph="delete from " />
+            <marker date="1523790238671" expanded="true" signature="3069:3179" ph="UPDATE adres... " />
+            <marker date="1523790238671" expanded="true" signature="3917:3961" ph="SELECT * FRO... evenement" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAdresseServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1523463648679" expanded="true" signature="1427:2193" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterContactServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state relative-caret-position="100">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactAdminServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EtudiantLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="67" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="471">
+          <caret line="41" column="9" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ContactServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/MembreLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/EvenementLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AdresseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1523455272052" expanded="true" signature="448:489" ph="SELECT * FRO... adresse" />
+            <marker date="1523455272052" expanded="true" signature="1959:2065" ph="INSERT INTO adresse... " />
+            <marker date="1523455272052" expanded="true" signature="3578:3616" ph="delete from " />
+            <marker date="1523455272052" expanded="true" signature="4037:4161" ph="UPDATE adres... " />
+            <marker date="1523455272052" expanded="true" signature="5190:5230" ph="SELECT * FRO... adresse" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterMembreServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/entities/Association.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/impl/AssociationDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="118" column="56" lean-forward="false" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1523802511240" expanded="true" signature="365:379" ph="SELECT * FRO... e" />
+            <marker date="1523802511240" expanded="true" signature="365:414" ph="SELECT * FRO... Association" />
+            <marker date="1523802511240" expanded="true" signature="1626:1739" ph="INSERT INTO adresse... " />
+            <marker date="1523802511240" expanded="true" signature="3027:3073" ph="delete from " />
+            <marker date="1523802511240" expanded="true" signature="3395:3530" ph="UPDATE assoc... " />
+            <marker date="1523802511240" expanded="true" signature="4411:4459" ph="SELECT * FRO... adresse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/dao/AssociationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAdresseServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/managers/AssociationLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="52" column="44" lean-forward="false" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="85" column="8" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ListeDeDiffusionAdminServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/AjouterAssociationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="43" column="76" lean-forward="false" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/FormulaireListeDeDiffusionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierContactServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="69" column="62" lean-forward="false" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierMembreServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="69" column="53" lean-forward="false" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/PortailAdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAdresseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerContactServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerMembreServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="-300">
+          <caret line="42" column="109" lean-forward="false" selection-start-line="42" selection-start-column="109" selection-end-line="42" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/DeconnexionServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ASServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="125">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/EcoleServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDAAdminServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="125">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Accueil.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/BDAServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ASAdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/ModifierAssociationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/hei/iti/sitewebwhei/servlets/SupprimerAssociationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/creationTableAsso.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/remplirTableAsso.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="96" lean-forward="false" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BET.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="96" lean-forward="false" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Capso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Commission.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="103" lean-forward="false" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireAssociation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="101" lean-forward="false" selection-start-line="35" selection-start-column="101" selection-end-line="35" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/FormulaireMembre.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1372,79 +1311,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BESAdmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BETAdmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AdresseDaoTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/CapsoAdmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
-          <folding>
-            <marker date="1523467980065" expanded="true" signature="882:901" ph="DELETE FROM " />
-            <marker date="1523467980065" expanded="true" signature="1014:1238" ph="INSERT INTO `adresse`... " />
-            <marker date="1523467980065" expanded="true" signature="1295:1519" ph="INSERT INTO `adresse`... " />
-            <marker date="1523467980065" expanded="true" signature="3014:3056" ph="SELECT * FRO... adresse" />
-            <marker date="1523467980065" expanded="true" signature="4098:4138" ph="SELECT * FRO... adresse" />
-            <marker date="1523467980065" expanded="true" signature="4878:4922" ph="SELECT * FRO... adresse" />
-          </folding>
+        <state relative-caret-position="550">
+          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EtudiantDaoTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/CommissionAdmin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-          <folding>
-            <marker date="1523468356868" expanded="true" signature="890:910" ph="DELETE FROM " />
-            <marker date="1523468356868" expanded="true" signature="1010:1155" ph="INSERT INTO `etudiant`... " />
-            <marker date="1523468356868" expanded="true" signature="1212:1357" ph="INSERT INTO `etudiant`... " />
-            <marker date="1523468356868" expanded="true" signature="2614:2663" ph="SELECT * FRO... etudiant" />
-            <marker date="1523468356868" expanded="true" signature="3470:3512" ph="SELECT * FRO... etudiant" />
-            <marker date="1523468356868" expanded="true" signature="4221:4267" ph="SELECT * FRO... etudiant" />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MembreDaoTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Accueil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="121" column="35" lean-forward="false" selection-start-line="121" selection-start-column="35" selection-end-line="121" selection-end-column="35" />
-          <folding>
-            <marker date="1523468639860" expanded="true" signature="874:892" ph="DELETE FROM " />
-            <marker date="1523468639860" expanded="true" signature="990:1179" ph="INSERT INTO `membre`... " />
-            <marker date="1523468639860" expanded="true" signature="1236:1425" ph="INSERT INTO `membre`... " />
-            <marker date="1523468639860" expanded="true" signature="2804:2851" ph="SELECT * FRO... membre" />
-            <marker date="1523468639860" expanded="true" signature="3801:3839" ph="SELECT * FRO... membre" />
-            <marker date="1523468639860" expanded="true" signature="4557:4599" ph="SELECT * FRO... membre" />
-          </folding>
+        <state relative-caret-position="-75">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MoyenDeContactDaoTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Evenement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding>
-            <marker date="1523468924395" expanded="true" signature="940:968" ph="DELETE FROM " />
-            <marker date="1523468924395" expanded="true" signature="1076:1309" ph="INSERT INTO `moyen_de_contact`... " />
-            <marker date="1523468924395" expanded="true" signature="1366:1599" ph="INSERT INTO `moyen_de_contact`... " />
-            <marker date="1523468924395" expanded="true" signature="3215:3266" ph="SELECT * FRO... moyen_de_contact" />
-            <marker date="1523468924395" expanded="true" signature="4278:4336" ph="SELECT * FRO... moyen_de_contact" />
-            <marker date="1523468924395" expanded="true" signature="5129:5191" ph="SELECT * FRO... moyen_de_contact" />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Integrale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="45" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/AS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="66" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDEAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDAAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/ASAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/IntegraleAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BES.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="96" lean-forward="false" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/BDSAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

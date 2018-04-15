@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>WHEI</title>
+    </head>
+
+    <body>
+
+        <section th:replace="~{fragments::menuAdmin}"></section>
+
+        <section class="ContenuRechercher">
+
+            <form action="" method="post">
+
+                <input type="hidden" name="association_id" th:value="${association_id}">
+
+                <section class="TitreChampDeSaisie"> Nom </section>
+                <input type="text" name="nom" maxlength="200" class="ChampDeSaisie" th:value="${nom}">
+
+                <section class="TitreChampDeSaisie"> Mail </section>
+                <input type="text" name="mail" maxlength="200" class="ChampDeSaisie" th:value="${mail}">
+
+                <section class="TitreChampDeSaisie"> nomPresident </section>
+                <input type="text" name="nomPresident" maxlength="200" class="ChampDeSaisie" th:value="${nomPresident}">
+
+                <section class="TitreChampDeSaisie"> nomFb </section>
+                <input type="text" name="nomFb" maxlength="200" class="ChampDeSaisie" th:value="${nomFb}">
+
+                <section class="TitreChampDeSaisie"> Description </section>
+                <input type="text" name="description" maxlength="200" class="ChampDeSaisie" th:value="${description}">
+
+                <section class="TitreChampDeSaisie"> Pole </section>
+                <input type="text" name="pole" maxlength="200" class="ChampDeSaisie" th:value="${pole}">
+
+                <section class="TitreChampDeSaisie"> URL image </section>
+                <input type="text" name="urlImage" maxlength="200" class="ChampDeSaisie" th:value="${urlImage}">
+
+                <section th:unless="${currentPage}=='ajouter'" class="ConteneurBoutonSupprimer">
+                    <section class="TitreDescription">
+                        <a th:href="${'SupprimerAssociation?id='+association_id}">Supprimer l'element</a>
+                    </section>
+                </section>
+
+                <section> <input type="submit" th:value="Valider" class="BoutonRechercher"></section>
+
+            </form>
+
+        </section>
+
+        <section class="basDePage"></section>
+
+    </body>
+
+</html>

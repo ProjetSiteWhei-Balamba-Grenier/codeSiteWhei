@@ -37,7 +37,7 @@ public class ModifierAdresseServlet extends HttpServlet {
             adresse = req.getParameter("adresse");
             horaires = req.getParameter("horaires");
             description = req.getParameter("description");
-            urlImage = "https://s3.eu-west-3.amazonaws.com/projet-site-whei/photoDeProfil.jpg";
+            urlImage = req.getParameter("urlImage");
         }
 
         catch (NumberFormatException ignored) {
